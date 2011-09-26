@@ -1,0 +1,18 @@
+//
+//  UAV.m
+//  UAV
+//
+//  Created by Eric Dong on 11/2/10.
+//  Copyright 2010 NUS. All rights reserved.
+//
+/*
+#import "UAV.h"
+
+
+@implementation UAV
+
+-(UAV*) initialize{
+	return self;
+}
+@end
+*/

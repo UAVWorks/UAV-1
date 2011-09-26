@@ -1,0 +1,16 @@
+//
+//  SLAMView.h
+//  UAV
+//
+//  Created by Lee Sing Jie on 5/9/11.
+//  Copyright 2011 NUS. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface SLAMView : UIView {
+
+}
+
+@end

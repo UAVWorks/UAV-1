@@ -1,0 +1,695 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/fyp/!svn/ver/29/UAV
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/fyp/!svn/ver/1/UAV/main.m
+END
+GroundSpeedNeedle.png
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/fyp/!svn/ver/13/UAV/GroundSpeedNeedle.png
+END
+Circle_Orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/fyp/!svn/ver/29/UAV/Circle_Orange.png
+END
+SummaryView.m
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/fyp/!svn/ver/19/UAV/SummaryView.m
+END
+graph.png
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/fyp/!svn/ver/1/UAV/graph.png
+END
+OpenGLWaveFrontMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fyp/!svn/ver/19/UAV/OpenGLWaveFrontMaterial.h
+END
+UAVSTRUCT.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/13/UAV/UAVSTRUCT.h
+END
+3DViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/fyp/!svn/ver/22/UAV/3DViewController.xib
+END
+move.png
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/fyp/!svn/ver/1/UAV/move.png
+END
+MapView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/fyp/!svn/ver/1/UAV/MapView.xib
+END
+OpenGLWaveFrontMaterial.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fyp/!svn/ver/20/UAV/OpenGLWaveFrontMaterial.m
+END
+UAVSTRUCT.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/13/UAV/UAVSTRUCT.m
+END
+TurnCoordinatorAircraft.png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fyp/!svn/ver/13/UAV/TurnCoordinatorAircraft.png
+END
+3DViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/17/UAV/3DViewController.h
+END
+ManualViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/21/UAV/ManualViewController.xib
+END
+3DViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/17/UAV/3DViewController.m
+END
+156-controlpad.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/21/UAV/156-controlpad.png
+END
+GameGraphs.png
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/fyp/!svn/ver/1/UAV/GameGraphs.png
+END
+PanelsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/22/UAV/PanelsViewController.xib
+END
+ImageViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/29/UAV/ImageViewController.xib
+END
+1282981817_Delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/fyp/!svn/ver/1/UAV/1282981817_Delete.png
+END
+73-radar.png
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/fyp/!svn/ver/30/UAV/73-radar.png
+END
+Entitlements.plist
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/fyp/!svn/ver/1/UAV/Entitlements.plist
+END
+PanelsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fyp/!svn/ver/17/UAV/PanelsViewController.h
+END
+ImageViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/fyp/!svn/ver/30/UAV/ImageViewController.h
+END
+VerticalSpeedIndicator_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/fyp/!svn/ver/13/UAV/VerticalSpeedIndicator_Background.png
+END
+Horizon_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fyp/!svn/ver/13/UAV/Horizon_Background.png
+END
+AirSpeedIndicator_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/fyp/!svn/ver/13/UAV/AirSpeedIndicator_Background.png
+END
+camera.png
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/fyp/!svn/ver/1/UAV/camera.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/fyp/!svn/ver/1/UAV/icon.png
+END
+SummaryIPAD.xib
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/fyp/!svn/ver/13/UAV/SummaryIPAD.xib
+END
+PanelsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fyp/!svn/ver/17/UAV/PanelsViewController.m
+END
+ImageViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/fyp/!svn/ver/30/UAV/ImageViewController.m
+END
+TurnCoordinatorMarks.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/13/UAV/TurnCoordinatorMarks.png
+END
+UAV-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/fyp/!svn/ver/26/UAV/UAV-Info.plist
+END
+HeadingIndicator_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/fyp/!svn/ver/13/UAV/HeadingIndicator_Background.png
+END
+OpenGLWaveFrontCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/19/UAV/OpenGLWaveFrontCommon.h
+END
+UAV.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/fyp/!svn/ver/19/UAV/UAV.h
+END
+OpenGLTexture3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/fyp/!svn/ver/19/UAV/OpenGLTexture3D.h
+END
+preferences.png
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/fyp/!svn/ver/1/UAV/preferences.png
+END
+SummaryTableIPAD.xib
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/fyp/!svn/ver/13/UAV/SummaryTableIPAD.xib
+END
+1284268387_Circle_Green.png
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fyp/!svn/ver/1/UAV/1284268387_Circle_Green.png
+END
+SettingsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/19/UAV/SettingsViewController.h
+END
+UAV.m
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/fyp/!svn/ver/19/UAV/UAV.m
+END
+gluLookAt.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/19/UAV/gluLookAt.h
+END
+LiveImageViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fyp/!svn/ver/19/UAV/LiveImageViewController.h
+END
+OpenGLTexture3D.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/fyp/!svn/ver/24/UAV/OpenGLTexture3D.m
+END
+SettingsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/19/UAV/SettingsViewController.m
+END
+ConstantsAndMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/fyp/!svn/ver/19/UAV/ConstantsAndMacros.h
+END
+Circle_Blue.png
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/fyp/!svn/ver/23/UAV/Circle_Blue.png
+END
+gluLookAt.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/19/UAV/gluLookAt.m
+END
+LiveImageViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fyp/!svn/ver/19/UAV/LiveImageViewController.m
+END
+HSRGB.plist
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/29/UAV/HSRGB.plist
+END
+MapViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/fyp/!svn/ver/11/UAV/MapViewController.h
+END
+MapViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/fyp/!svn/ver/11/UAV/MapViewController.m
+END
+SummaryView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/fyp/!svn/ver/1/UAV/SummaryView.xib
+END
+world.png
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/fyp/!svn/ver/1/UAV/world.png
+END
+TurnCoordinatorBall.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/13/UAV/TurnCoordinatorBall.png
+END
+Horizon_GroundSky.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/fyp/!svn/ver/16/UAV/Horizon_GroundSky.bmp
+END
+SummaryTableViewCustomCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/fyp/!svn/ver/1/UAV/SummaryTableViewCustomCell.xib
+END
+SLAM.xib
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/fyp/!svn/ver/30/UAV/SLAM.xib
+END
+plane3.mtl
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/fyp/!svn/ver/19/UAV/plane3.mtl
+END
+UAVAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fyp/!svn/ver/19/UAV/UAVAppDelegate.h
+END
+MainWindow.IPHONE.xib
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/fyp/!svn/ver/11/UAV/MainWindow.IPHONE.xib
+END
+SmallNeedleAltimeter.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/13/UAV/SmallNeedleAltimeter.png
+END
+SummaryTableViewCustomCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fyp/!svn/ver/19/UAV/SummaryTableViewCustomCell.h
+END
+UAVAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fyp/!svn/ver/19/UAV/UAVAppDelegate.m
+END
+RedRectangle.png
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fyp/!svn/ver/23/UAV/RedRectangle.png
+END
+GraphView.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/19/UAV/GraphView.h
+END
+logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/fyp/!svn/ver/23/UAV/logo.png
+END
+SummaryTableViewCustomCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fyp/!svn/ver/19/UAV/SummaryTableViewCustomCell.m
+END
+GraphView.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/19/UAV/GraphView.m
+END
+BatteryIndicator_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/fyp/!svn/ver/13/UAV/BatteryIndicator_Background.png
+END
+HeadingIndicator_Aircraft.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/fyp/!svn/ver/13/UAV/HeadingIndicator_Aircraft.png
+END
+1284268375_Circle_Red.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/1/UAV/1284268375_Circle_Red.png
+END
+Indicator_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fyp/!svn/ver/13/UAV/Indicator_Background.png
+END
+HeadingWeel.png
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/fyp/!svn/ver/13/UAV/HeadingWeel.png
+END
+81-dashboard.png
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fyp/!svn/ver/13/UAV/81-dashboard.png
+END
+LongNeedleAltimeter.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/13/UAV/LongNeedleAltimeter.png
+END
+GreenRectangle.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/23/UAV/GreenRectangle.png
+END
+1282981803_Check.png
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/fyp/!svn/ver/1/UAV/1282981803_Check.png
+END
+Default-LandscapeLeft.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fyp/!svn/ver/13/UAV/Default-LandscapeLeft.png
+END
+MapArrow.png
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/fyp/!svn/ver/30/UAV/MapArrow.png
+END
+Circle_Red.png
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/fyp/!svn/ver/25/UAV/Circle_Red.png
+END
+TurnCoordinator_Background.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fyp/!svn/ver/13/UAV/TurnCoordinator_Background.png
+END
+SettingsIPAD.xib
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fyp/!svn/ver/31/UAV/SettingsIPAD.xib
+END
+Crosshair.png
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/fyp/!svn/ver/13/UAV/Crosshair.png
+END
+LiveImageIPAD.xib
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/fyp/!svn/ver/29/UAV/LiveImageIPAD.xib
+END
+UAV_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/fyp/!svn/ver/1/UAV/UAV_Prefix.pch
+END
+SummaryViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/19/UAV/SummaryViewController.h
+END
+OpenGLWaveFrontGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fyp/!svn/ver/19/UAV/OpenGLWaveFrontGroup.h
+END
+SummaryViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/19/UAV/SummaryViewController.m
+END
+OpenGLWaveFrontGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/fyp/!svn/ver/19/UAV/OpenGLWaveFrontGroup.m
+END
+UAV.sql
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/fyp/!svn/ver/1/UAV/UAV.sql
+END
+VerticalSpeedNeedle.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/13/UAV/VerticalSpeedNeedle.png
+END
+MainWindowIPAD.xib
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/30/UAV/MainWindowIPAD.xib
+END
+plane3.obj
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/fyp/!svn/ver/19/UAV/plane3.obj
+END
+MapIPAD.xib
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/fyp/!svn/ver/13/UAV/MapIPAD.xib
+END
+AirSpeedNeedle.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/13/UAV/AirSpeedNeedle.png
+END
+ControlView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/fyp/!svn/ver/1/UAV/ControlView.xib
+END
+OpenGLWaveFrontObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/19/UAV/OpenGLWaveFrontObject.h
+END
+ImageView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/fyp/!svn/ver/1/UAV/ImageView.xib
+END
+1304838684_bullet-red.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/fyp/!svn/ver/30/UAV/1304838684_bullet-red.png
+END
+ControlView.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/fyp/!svn/ver/1/UAV/ControlView.h
+END
+OpenGLWaveFrontObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/fyp/!svn/ver/30/UAV/OpenGLWaveFrontObject.m
+END
+Maquette_Avion.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/13/UAV/Maquette_Avion.png
+END
+Circle_Green.png
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/fyp/!svn/ver/23/UAV/Circle_Green.png
+END
+1024by1024.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/fyp/!svn/ver/30/UAV/1024by1024.bmp
+END
+ControlView.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/fyp/!svn/ver/1/UAV/ControlView.m
+END
+Default.png
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/fyp/!svn/ver/1/UAV/Default.png
+END
+Altimeter_Background .png
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fyp/!svn/ver/13/UAV/Altimeter_Background%20.png
+END
+1287462562_Next.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fyp/!svn/ver/1/UAV/1287462562_Next.png
+END
+SettingsView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/fyp/!svn/ver/1/UAV/SettingsView.xib
+END
+LiveImageView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/fyp/!svn/ver/19/UAV/LiveImageView.xib
+END
+SummaryView.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/fyp/!svn/ver/19/UAV/SummaryView.h
+END

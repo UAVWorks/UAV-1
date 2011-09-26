@@ -1,0 +1,16 @@
+//
+//  ControlView.h
+//  UAV
+//
+//  Created by Eric Dong on 8/19/10.
+//  Copyright 2010 NUS. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface ControlView : UIViewController {
+
+}
+
+@end

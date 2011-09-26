@@ -1,0 +1,259 @@
+//
+//  MapViewController.m
+//  UAV
+//
+//  Created by Eric Dong on 8/18/10.
+//  Copyright 2010 NUS. All rights reserved.
+//
+
+#import "MapViewController.h"
+#import "UAV.h"
+
+@implementation MapViewController
+
+@synthesize mapView;
+@synthesize mapType;
+
+@synthesize followSwitch;
+@synthesize dropPinButton;
+/*
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+ - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+ if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+ // Custom initialization
+ }
+ return self;
+ }
+ */
+
+/*
+ // Implement loadView to create a view hierarchy programmatically, without using a nib.
+ - (void)loadView {
+ }
+ */
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	
+	
+	mapView.mapType = MKMapTypeHybrid;
+	mapView.showsUserLocation = YES;
+	
+	//prevPin.coordinate.latitude = 0;
+	//prevPin.longitude = 0;
+	
+	MKCoordinateRegion region;
+	CLLocationCoordinate2D  pt[1];
+	NSMutableArray *result = [[UAV sharedInstance] getLatestRowData];
+	pt[0].latitude = [[result objectAtIndex:22] doubleValue];
+	pt[0].longitude = [[result objectAtIndex:21] doubleValue];
+	region.center = *pt;//{1.367617, 103.836596};
+	
+	MKCoordinateSpan span = {0.00182, 0.00182}; //tune to show the best in satellite mode.
+	region.span = span;
+    [mapView setRegion:region animated:YES];
+	
+	
+	CLLocationCoordinate2D  pointsa[5];
+	pointsa[0].latitude = [[result objectAtIndex:22] doubleValue];
+	pointsa[0].longitude = [[result objectAtIndex:21] doubleValue];
+	
+	longitude = 0;
+	latitude = 0;
+	
+	MKPointAnnotation *pin = [[MKPointAnnotation alloc] init];
+	pin.coordinate = pointsa[0];
+	pin.title = @"Coordinates";
+//	[self.mapView addAnnotation:pin];
+	
+	[result release];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(triggerRefreshMap:) name:@"settings" object:nil];
+
+//	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(refreshMap) userInfo:nil repeats:YES];
+	
+}
+-(void)triggerRefreshMap:(NSNotification*)pNotification{
+    [self performSelectorOnMainThread:@selector(refreshMap:) withObject:pNotification waitUntilDone:YES];
+}
+
+-(void)refreshMap:(NSNotification*)pNotification{
+	//UAV *obj;
+	NSMutableArray *result = (NSMutableArray *)[pNotification object];
+//	NSMutableArray *result = [[UAV sharedInstance] getLatestRowData];
+	CLLocationCoordinate2D  pointsa[5];
+	
+	pointsa[0].longitude = [[result objectAtIndex:21] doubleValue];
+	pointsa[0].latitude = [[result objectAtIndex:22] doubleValue];
+	if (prevPin != NULL && pointsa[0].latitude == prevPin.coordinate.latitude && pointsa[0].longitude == prevPin.coordinate.longitude)
+	{
+		//[result release];
+		return;
+	}
+	
+	MKPointAnnotation *pin = [[[MKPointAnnotation alloc] init] autorelease];
+	
+	
+	pin.title = @"Coordinates";
+	pin.subtitle = [[NSString alloc]initWithFormat:@"%d",[[result objectAtIndex:9]intValue]] ;
+	pin.coordinate = pointsa[0];
+	
+	[self.mapView addAnnotation:pin];
+	
+	
+	if(prevPin != NULL){
+		[self.mapView removeAnnotation:prevPin];
+
+		
+		CLLocationCoordinate2D linePoints[2];
+		linePoints[0] = pointsa[0];
+		
+		linePoints[1] = (prevPin.coordinate);
+		
+		MKPolyline *line = [MKPolyline polylineWithCoordinates:linePoints count:2];
+		[self.mapView addOverlay:line];
+		prevPin.coordinate = pointsa[0];
+		
+	}	
+	prevPin = pin;
+	
+	if(followSwitch.on){
+		MKCoordinateRegion region;
+		region.center = pointsa[0];
+		MKCoordinateSpan span = {0.00182, 0.00182}; //tune to show the best in satellite mode.
+		region.span = span;
+		[self.mapView setRegion:region animated:NO];
+	}
+	
+//	[result release];
+	
+}
+
+
+
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+	switch (interfaceOrientation) {
+		case UIInterfaceOrientationPortrait:
+			return YES;
+			break;
+		default:
+			return YES;
+			break;
+	}
+}
+
+
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+#pragma mark -
+#pragma mark MapKit Delegate
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{//not used.
+	MKCoordinateRegion region;
+    region.center = userLocation.coordinate;
+    MKCoordinateSpan span = {0.00182, 0.00182}; //tune to show the best in satellite mode.
+    region.span = span;
+    
+	//[self.mapView setRegion:region animated:YES];
+	
+}
+
+- (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay
+{
+	
+	MKPolylineView *polyLineView = [[[MKPolylineView alloc] initWithOverlay: overlay] autorelease];
+	if(overlay.title == @"pinDrop"){
+		
+		polyLineView.strokeColor = [UIColor redColor];
+	}
+	else {
+		polyLineView.strokeColor = [UIColor greenColor];
+
+	}
+
+	//MKZoomScale currentZoomScale = self.mapView.bounds.size.width / self.mapView.visibleMapRect.size.width;
+	// Find out the line width at this zoom scale and outset the updateRect by that amount
+	//CGFloat lineWidth = MKRoadWidthAtZoomScale(currentZoomScale);
+	polyLineView.lineWidth = 4;
+	
+	return polyLineView;
+	
+}
+
+- (MKAnnotationView *) mapView: (MKMapView *) mapView viewForAnnotation: (id<MKAnnotation>) annotation
+{
+	if( [annotation title] == @"Coordinates"){
+		
+		MKAnnotationView *pin = (MKPinAnnotationView *) [self.mapView dequeueReusableAnnotationViewWithIdentifier: @"asdf"];
+		if (pin == nil)
+		{
+			pin = [[[MKAnnotationView alloc] initWithAnnotation: annotation reuseIdentifier: @"asdf"] autorelease];
+		}
+		else
+		{
+			pin.annotation = annotation;
+		}
+		//assume north = 0, image points -> by default. so have to +90. 
+		//eg. subtitle = 0, rotate it +90
+		//eg. subtitle = 180, rotate it 180+90
+		pin.image = [[UIImage imageNamed:@"MapArrow.png"] rotate:[[annotation subtitle]intValue]];
+		//[UIImage imageNamed:[[NSString alloc]initWithFormat:@"MapArrow%d.png", [[annotation subtitle]intValue]]];
+		
+		return pin;
+	}
+	return 0;
+}
+
+#pragma mark -
+
+-(IBAction)pinDrop:(id)sender{
+	
+	MKPointAnnotation *pin = [[[MKPointAnnotation alloc] init] autorelease];
+	pin.coordinate = self.mapView.region.center;
+	//pin.
+	[self.mapView addAnnotation:pin];
+	if(prevPinDropped.coordinate.longitude != 0 && prevPinDropped.coordinate.latitude != 0){
+		CLLocationCoordinate2D linePoints[2];
+		linePoints[0] = pin.coordinate;
+		linePoints[1] = prevPinDropped.coordinate;
+		MKPolyline *line = [MKPolyline polylineWithCoordinates:linePoints count:2];
+		line.title = @"pinDrop";
+		[self.mapView addOverlay:line];
+	}
+	
+	prevPinDropped = pin;
+}
+-(IBAction)mapTypeToggled: (id)sender{
+	if(mapType.on)
+		mapView.mapType = MKMapTypeHybrid;
+	else 
+		mapView.mapType = MKMapTypeStandard;
+}
+-(IBAction)followSwitchToggled: (id)sender{
+	if(followSwitch.on)
+		dropPinButton.hidden = YES;
+	else {
+		dropPinButton.hidden = NO;
+	}
+
+}
+
+@end

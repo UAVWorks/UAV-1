@@ -1,0 +1,2538 @@
+TUAV
+v7
+r0
+t327942376.297857
+cCheck dependencies
+cCpResource build/Debug-iphoneos/UAV.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Info.plist UAV-Info.plist
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GameGraphs.png GameGraphs.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/icon.png icon.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981803_Check.png 1282981803_Check.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981817_Delete.png 1282981817_Delete.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/preferences.png preferences.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/graph.png graph.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/camera.png camera.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/world.png world.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/move.png move.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268387_Circle_Green.png 1284268387_Circle_Green.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268375_Circle_Red.png 1284268375_Circle_Red.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1287462562_Next.png 1287462562_Next.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapArrow.png MapArrow.png
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/LiveImageIPAD.xib
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/MainWindowIPAD.xib
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/SummaryIPAD.xib
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/SummaryTableIPAD.xib
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/MapIPAD.xib
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/SettingsIPAD.xib
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Crosshair.png Crosshair.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscape.png Default-Landscape.png
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/PanelsViewController.xib
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/81-dashboard.png 81-dashboard.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedIndicator_Background.png AirSpeedIndicator_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedNeedle.png AirSpeedNeedle.png
+cCopyPNGFile "/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Altimeter_Background .png" "Altimeter_Background .png"
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/BatteryIndicator_Background.png BatteryIndicator_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GroundSpeedNeedle.png GroundSpeedNeedle.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Aircraft.png HeadingIndicator_Aircraft.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Background.png HeadingIndicator_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingWeel.png HeadingWeel.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Horizon_Background.png Horizon_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Indicator_Background.png Indicator_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LongNeedleAltimeter.png LongNeedleAltimeter.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Maquette_Avion.png Maquette_Avion.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SmallNeedleAltimeter.png SmallNeedleAltimeter.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinator_Background.png TurnCoordinator_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorAircraft.png TurnCoordinatorAircraft.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorBall.png TurnCoordinatorBall.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorMarks.png TurnCoordinatorMarks.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedIndicator_Background.png VerticalSpeedIndicator_Background.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedNeedle.png VerticalSpeedNeedle.png
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/3DViewController.xib
+cCpResource build/Debug-iphoneos/UAV.app/Horizon_GroundSky.bmp Horizon_GroundSky.bmp
+cCpResource build/Debug-iphoneos/UAV.app/plane3.obj plane3.obj
+cCpResource build/Debug-iphoneos/UAV.app/plane3.mtl plane3.mtl
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/ManualViewController.xib
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/156-controlpad.png 156-controlpad.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/logo.png logo.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Blue.png Circle_Blue.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Green.png Circle_Green.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GreenRectangle.png GreenRectangle.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/RedRectangle.png RedRectangle.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Red.png Circle_Red.png
+cCopyPlistFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HSRGB.plist HSRGB.plist
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Orange.png Circle_Orange.png
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/ImageViewController.xib
+cCompileXIB /Users/singjie/Desktop/fyp/UAV/SLAM.xib
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/73-radar.png 73-radar.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1304838684_bullet-red.png 1304838684_bullet-red.png
+cCpResource build/Debug-iphoneos/UAV.app/1024by1024.bmp 1024by1024.bmp
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/greenForward.png greenForward.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/right-icon.png right-icon.png
+cCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/aDefault-Landscape.png aDefault-Landscape.png
+cProcessPCH /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch.gch UAV_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/main.o /Users/singjie/Desktop/fyp/UAV/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/LiveImageViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/MapViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/rotateImage.o /Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/S7GraphView.o /Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SettingsViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryTableViewCustomCell.o /Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.o /Users/singjie/Desktop/fyp/UAV/Classes/UAV.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVAppDelegate.o /Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVSTRUCT.o /Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/PanelsViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLView.o /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontObject.o /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLTexture3D.o /Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontMaterial.o /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontGroup.o /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/gluLookAt.o /Users/singjie/Desktop/fyp/UAV/gluLookAt.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/ImageViewController.o /Users/singjie/Desktop/fyp/UAV/ImageViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o /Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/IPAddress.o /Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV normal armv7
+cGenerateDSYMFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app.dSYM /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV
+cProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/5EC0316C-1254-416D-80A9-00D3F5D63A9F.mobileprovision" /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+cTouch /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent
+cCodeSign /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54D12700000000000004CF
+t1297404199
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D5DE7AF00000000000FD4D0
+t1297999791
+s1037520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9CA600000000000002FE
+t1297915046
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004D5C9CD400000000002B3AB0
+t1297915092
+s2833072
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004D5DEA81000000000000291C
+t1298000513
+s10524
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DEA9B0000000000113080
+t1298000539
+s1126528
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004D54D429000000000000094F
+t1297404969
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004D54D4290000000000000A61
+t1297404969
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004D54D4290000000000009369
+t1297404969
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004D54D4290000000000003C4A
+t1297404969
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004D54D43E000000000002E690
+t1297404990
+s190096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5330000000000001533
+t1297401139
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/errno.h
+c000000004D4F6E9000000000000003EB
+t1297051280
+s1003
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/fcntl.h
+c000000004D4F6E9000000000000003EA
+t1297051280
+s1002
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/math.h
+c000000004D4F6E4300000000000004F1
+t1297051203
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/net/if.h
+c000000004D54CB240000000000003DBA
+t1297402660
+s15802
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/net/if_dl.h
+c000000004D54CB2400000000000013E6
+t1297402660
+s5094
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netdb.h
+c000000004D54C533000000000000307F
+t1297401139
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet/in.h
+c000000004D54CB250000000000006BAC
+t1297402661
+s27564
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sqlite3.h
+c000000004D54CBFE0000000000045296
+t1297402878
+s283286
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/ioctl.h
+c000000004D54CB28000000000000116C
+t1297402664
+s4460
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/socket.h
+c000000004D54CB290000000000005ACF
+t1297402665
+s23247
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/sockio.h
+c000000004D54CB2900000000000022F2
+t1297402665
+s8946
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/types.h
+c000000004D54CB2A0000000000002905
+t1297402666
+s10501
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/unistd.h
+c000000004D4F6E910000000000006662
+t1297051281
+s26210
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CC1100000000000D80B0
+t1297402897
+s884912
+
+N/Users/singjie/Desktop/fyp/UAV/1024by1024.bmp
+c000000004DC7D58D0000000000400038
+t1304941965
+s4194360
+
+N/Users/singjie/Desktop/fyp/UAV/1282981803_Check.png
+c000000004D8AB67400000000000063EA
+t1300936308
+s25578
+
+N/Users/singjie/Desktop/fyp/UAV/1282981817_Delete.png
+c000000004D8AB6740000000000003DCE
+t1300936308
+s15822
+
+N/Users/singjie/Desktop/fyp/UAV/1284268375_Circle_Red.png
+c000000004D8AB6740000000000004555
+t1300936308
+s17749
+
+N/Users/singjie/Desktop/fyp/UAV/1284268387_Circle_Green.png
+c000000004D8AB67400000000000044C7
+t1300936308
+s17607
+
+N/Users/singjie/Desktop/fyp/UAV/1287462562_Next.png
+c000000004D8AB6740000000000000A8A
+t1300936308
+s2698
+
+N/Users/singjie/Desktop/fyp/UAV/1304838684_bullet-red.png
+c000000004DC642A10000000000000451
+t1304838817
+s1105
+
+N/Users/singjie/Desktop/fyp/UAV/156-controlpad.png
+c000000004D8AB6740000000000000188
+t1300936308
+s392
+
+N/Users/singjie/Desktop/fyp/UAV/3DViewController.xib
+c000000004D8AB6740000000000004256
+t1300936308
+s16982
+
+N/Users/singjie/Desktop/fyp/UAV/73-radar.png
+c000000004CB7E1FA0000000000000DDF
+t1287119354
+s3551
+
+N/Users/singjie/Desktop/fyp/UAV/81-dashboard.png
+c000000004D8AB6740000000000000D13
+t1300936308
+s3347
+
+N/Users/singjie/Desktop/fyp/UAV/AirSpeedIndicator_Background.png
+c000000004D8AB6740000000000007F55
+t1300936308
+s32597
+
+N/Users/singjie/Desktop/fyp/UAV/AirSpeedNeedle.png
+c000000004D8AB6740000000000000CE2
+t1300936308
+s3298
+
+N/Users/singjie/Desktop/fyp/UAV/Altimeter_Background .png
+c000000004D8AB6740000000000007E20
+t1300936308
+s32288
+
+N/Users/singjie/Desktop/fyp/UAV/BatteryIndicator_Background.png
+c000000004D8AB6740000000000005BED
+t1300936308
+s23533
+
+N/Users/singjie/Desktop/fyp/UAV/Circle_Blue.png
+c000000004D8AB674000000000000480B
+t1300936308
+s18443
+
+N/Users/singjie/Desktop/fyp/UAV/Circle_Green.png
+c000000004D8AB67400000000000044C7
+t1300936308
+s17607
+
+N/Users/singjie/Desktop/fyp/UAV/Circle_Orange.png
+c000000004D8B622300000000000047EB
+t1300980259
+s18411
+
+N/Users/singjie/Desktop/fyp/UAV/Circle_Red.png
+c000000004D8AB6740000000000004555
+t1300936308
+s17749
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/GraphView.h
+c000000004D8AB63F0000000000000B4B
+t1300936255
+s2891
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.h
+c000000004DC64ABE0000000000000189
+t1304840894
+s393
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m
+c000000004DC64AFC0000000000001089
+t1304840956
+s4233
+i"IPAddress.h"
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<sys/ioctl.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<arpa/inet.h>
+i<sys/sockio.h>
+i<net/if.h>
+i<errno.h>
+i<net/if_dl.h>
+i"IPAddress.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.h
+c000000004D8B622300000000000002C5
+t1300980259
+s709
+i<UIKit/UIKit.h>
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m
+c000000004DC8D8DA0000000000001C27
+t1305008346
+s7207
+i"LiveImageViewController.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.h
+c000000004D9604000000000000000355
+t1301677056
+s853
+i<MapKit/MapKit.h>
+i<UIKit/UIKit.h>
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m
+c000000004DCBAB9B0000000000001BFF
+t1305193371
+s7167
+i"MapViewController.h"
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.h
+c000000004D8AB63F0000000000000FC6
+t1300936255
+s4038
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"OpenGLWaveFrontObject.h"
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m
+c000000004D9AF5470000000000003220
+t1302000967
+s12832
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"OpenGLView.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.h
+c000000004D8AB63F00000000000000E6
+t1300936255
+s230
+i<UIKit/UIKit.h>
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m
+c000000004D9AF28B00000000000005FC
+t1302000267
+s1532
+i"OpenGLViewController.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.h
+c000000004D8AB63F0000000000000353
+t1300936255
+s851
+i<UIKit/UIKit.h>
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m
+c000000004DCCA9920000000000001E30
+t1305258386
+s7728
+i"PanelsViewController.h"
+i<QuartzCore/QuartzCore.h>
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.h
+c000000004D8B6223000000000000128C
+t1300980259
+s4748
+i<UIKit/UIKit.h>
+i"S7Macros.h"
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m
+c000000004D8D723200000000000027AF
+t1301115442
+s10159
+i"S7GraphView.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/S7Macros.h
+c000000004D8AB63F00000000000007A2
+t1300936255
+s1954
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SLAM.h
+c000000004DCB9D53000000000000022B
+t1305189715
+s555
+i<UIKit/UIKit.h>
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m
+c000000004DDB7B9D0000000000002075
+t1306229661
+s8309
+i"SLAM.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.h
+c000000004DC7B9C300000000000000B7
+t1304934851
+s183
+i<UIKit/UIKit.h>
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.m
+c000000004DC7BFDF00000000000004AA
+t1304936415
+s1194
+i"SLAMView.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.h
+c000000004DCBBE4B0000000000000C14
+t1305198155
+s3092
+i<UIKit/UIKit.h>
+i<MessageUI/MFMailComposeViewController.h>
+i"UAV.h"
+i"ImageViewController.h"
+i"MapViewController.h"
+i"OpenGLViewController.h"
+i"IPAddress.h"
+i"SLAM.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m
+c000000004DD0CEBA0000000000007AFC
+t1305530042
+s31484
+i"SettingsViewController.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.h
+c000000004D8AB63F0000000000000316
+t1300936255
+s790
+i<UIKit/UIKit.h>
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m
+c000000004D8AB63F00000000000003F8
+t1300936255
+s1016
+i"SummaryTableViewCustomCell.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.h
+c000000004D8AB63F0000000000000682
+t1300936255
+s1666
+i<UIKit/UIKit.h>
+i"SummaryTableViewCustomCell.h"
+i"UAV.h"
+i"S7GraphView.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m
+c000000004DCB88F1000000000000366C
+t1305184497
+s13932
+i"SummaryViewController.h"
+i"SummaryTableViewCustomCell.h"
+i"GraphView.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/UAV.h
+c000000004DCB88FD0000000000001503
+t1305184509
+s5379
+i<Foundation/Foundation.h>
+i"rotateImage.h"
+i"UAVSTRUCT.h"
+i<sqlite3.h>
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<errno.h>
+i<string.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<fcntl.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<sys/ioctl.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<arpa/inet.h>
+i<sys/sockio.h>
+i<net/if.h>
+i<errno.h>
+i<net/if_dl.h>
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/UAV.m
+c000000004DCB88F600000000000036B9
+t1305184502
+s14009
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.h
+c000000004DC8D8000000000000000203
+t1305008128
+s515
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+i"UAV.h"
+i"SettingsViewController.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m
+c000000004DCB88B40000000000000F50
+t1305184436
+s3920
+i"UAVAppDelegate.h"
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.h
+c000000004D8AB63F000000000000011A
+t1300936255
+s282
+i<UIKit/UIKit.h>
+i<math.h>
+
+N/Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m
+c000000004D9600670000000000000558
+t1301676135
+s1368
+i"rotateImage.h"
+
+N/Users/singjie/Desktop/fyp/UAV/ConstantsAndMacros.h
+c000000004D8AB6740000000000000269
+t1300936308
+s617
+
+N/Users/singjie/Desktop/fyp/UAV/Crosshair.png
+c000000004D8AB6740000000000001789
+t1300936308
+s6025
+
+N/Users/singjie/Desktop/fyp/UAV/Default-Landscape.png
+c000000004DDBC65D0000000000010327
+t1306248797
+s66343
+
+N/Users/singjie/Desktop/fyp/UAV/Default-LandscapeLeft.png
+c000000004DDBC72100000000000108D1
+t1306248993
+s67793
+
+N/Users/singjie/Desktop/fyp/UAV/Default-LandscapeRight.png
+c000000004DDBC65D0000000000010327
+t1306248797
+s66343
+
+N/Users/singjie/Desktop/fyp/UAV/Default-Landscapem.png
+c000000004DDBC65D0000000000010327
+t1306248797
+s66343
+
+N/Users/singjie/Desktop/fyp/UAV/GameGraphs.png
+c000000004D8AB674000000000000BCEB
+t1300936308
+s48363
+
+N/Users/singjie/Desktop/fyp/UAV/GreenRectangle.png
+c000000004D8AB6740000000000001D25
+t1300936308
+s7461
+
+N/Users/singjie/Desktop/fyp/UAV/GroundSpeedNeedle.png
+c000000004D8AB6740000000000000CCF
+t1300936308
+s3279
+
+N/Users/singjie/Desktop/fyp/UAV/HSRGB.plist
+c000000004D8B622300000000000001DC
+t1300980259
+s476
+
+N/Users/singjie/Desktop/fyp/UAV/HeadingIndicator_Aircraft.png
+c000000004D8AB674000000000000102D
+t1300936308
+s4141
+
+N/Users/singjie/Desktop/fyp/UAV/HeadingIndicator_Background.png
+c000000004D8AB6740000000000005412
+t1300936308
+s21522
+
+N/Users/singjie/Desktop/fyp/UAV/HeadingWeel.png
+c000000004D8AB6740000000000003936
+t1300936308
+s14646
+
+N/Users/singjie/Desktop/fyp/UAV/Horizon_Background.png
+c000000004D8AB6740000000000003455
+t1300936308
+s13397
+
+N/Users/singjie/Desktop/fyp/UAV/Horizon_GroundSky.bmp
+c000000004D8AB67400000000000B79B6
+t1300936308
+s752054
+
+N/Users/singjie/Desktop/fyp/UAV/ImageViewController.h
+c000000004D9B1D6E0000000000000157
+t1302011246
+s343
+i<UIKit/UIKit.h>
+
+N/Users/singjie/Desktop/fyp/UAV/ImageViewController.m
+c000000004D9B1EF20000000000000FC7
+t1302011634
+s4039
+i"ImageViewController.h"
+
+N/Users/singjie/Desktop/fyp/UAV/ImageViewController.xib
+c000000004D8B622300000000000050A0
+t1300980259
+s20640
+
+N/Users/singjie/Desktop/fyp/UAV/Indicator_Background.png
+c000000004D8AB67400000000000058D5
+t1300936308
+s22741
+
+N/Users/singjie/Desktop/fyp/UAV/LiveImageIPAD.xib
+c000000004D8B6223000000000005D3E8
+t1300980259
+s381928
+
+N/Users/singjie/Desktop/fyp/UAV/LongNeedleAltimeter.png
+c000000004D8AB6740000000000000C87
+t1300936308
+s3207
+
+N/Users/singjie/Desktop/fyp/UAV/MainWindowIPAD.xib
+c000000004DC63048000000000001167C
+t1304834120
+s71292
+
+N/Users/singjie/Desktop/fyp/UAV/ManualViewController.xib
+c000000004D8AB6740000000000003EEC
+t1300936308
+s16108
+
+N/Users/singjie/Desktop/fyp/UAV/MapArrow.png
+c000000004D960005000000000000095F
+t1301676037
+s2399
+
+N/Users/singjie/Desktop/fyp/UAV/MapIPAD.xib
+c000000004D8AB6740000000000006EA0
+t1300936308
+s28320
+
+N/Users/singjie/Desktop/fyp/UAV/Maquette_Avion.png
+c000000004D8AB6740000000000000B88
+t1300936308
+s2952
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.h
+c000000004D8AB674000000000000020F
+t1300936308
+s527
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m
+c000000004D8AB6740000000000000BF8
+t1300936308
+s3064
+i"OpenGLTexture3D.h"
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontCommon.h
+c000000004D8AB6740000000000001ECB
+t1300936308
+s7883
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.h
+c000000004D8AB6740000000000000363
+t1300936308
+s867
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"OpenGLWaveFrontCommon.h"
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m
+c000000004D8AB67400000000000002EC
+t1300936308
+s748
+i"OpenGLWaveFrontGroup.h"
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.h
+c000000004D8AB6740000000000000482
+t1300936308
+s1154
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"OpengLWaveFrontCommon.h"
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m
+c000000004D8AB67400000000000018D4
+t1300936308
+s6356
+i"OpenGLWaveFrontMaterial.h"
+i"OpenGLTexture3D.h"
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.h
+c000000004D8AB6740000000000000588
+t1300936308
+s1416
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"OpengLWaveFrontCommon.h"
+i"OpenGLWaveFrontMaterial.h"
+
+N/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m
+c000000004D9AF1400000000000003A21
+t1301999936
+s14881
+i"OpenGLWaveFrontObject.h"
+i"ConstantsAndMacros.h"
+i"OpenGLWaveFrontGroup.h"
+i"OpenGLWaveFrontMaterial.h"
+i"OpenGLTexture3D.h"
+
+N/Users/singjie/Desktop/fyp/UAV/PanelsViewController.xib
+c000000004D8AB6740000000000061291
+t1300936308
+s397969
+
+N/Users/singjie/Desktop/fyp/UAV/Play-1-Pressed-icon.png
+c000000004DCB9C4E00000000000031EF
+t1305189454
+s12783
+
+N/Users/singjie/Desktop/fyp/UAV/RedRectangle.png
+c000000004D8AB6740000000000001C9F
+t1300936308
+s7327
+
+N/Users/singjie/Desktop/fyp/UAV/SLAM.h
+c000000004DC6315700000000000000C9
+t1304834391
+s201
+i<UIKit/UIKit.h>
+i"UAV.h"
+
+N/Users/singjie/Desktop/fyp/UAV/SLAM.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/singjie/Desktop/fyp/UAV/SLAM.xib
+c000000004DC77573000000000005B316
+t1304917363
+s373526
+
+N/Users/singjie/Desktop/fyp/UAV/SettingsIPAD.xib
+c000000004DCBBED800000000000787C3
+t1305198296
+s493507
+
+N/Users/singjie/Desktop/fyp/UAV/SmallNeedleAltimeter.png
+c000000004D8AB6740000000000000CAA
+t1300936308
+s3242
+
+N/Users/singjie/Desktop/fyp/UAV/SummaryIPAD.xib
+c000000004D8AB674000000000005DE2E
+t1300936308
+s384558
+
+N/Users/singjie/Desktop/fyp/UAV/SummaryTableIPAD.xib
+c000000004D8AB674000000000005DA10
+t1300936308
+s383504
+
+N/Users/singjie/Desktop/fyp/UAV/TurnCoordinatorAircraft.png
+c000000004D8AB6740000000000000C6B
+t1300936308
+s3179
+
+N/Users/singjie/Desktop/fyp/UAV/TurnCoordinatorBall.png
+c000000004D8AB6740000000000000CDD
+t1300936308
+s3293
+
+N/Users/singjie/Desktop/fyp/UAV/TurnCoordinatorMarks.png
+c000000004D8AB6740000000000000B1B
+t1300936308
+s2843
+
+N/Users/singjie/Desktop/fyp/UAV/TurnCoordinator_Background.png
+c000000004D8AB67400000000000067EF
+t1300936308
+s26607
+
+N/Users/singjie/Desktop/fyp/UAV/UAV.h
+c000000004D8AB6740000000000000257
+t1300936308
+s599
+i<Foundation/Foundation.h>
+
+N/Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.h
+c000000004D8AB67400000000000003DC
+t1300936308
+s988
+i<Foundation/Foundation.h>
+
+N/Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m
+c000000004D8AB6740000000000000235
+t1300936308
+s565
+i"UAVSTRUCT.h"
+
+N/Users/singjie/Desktop/fyp/UAV/UAV_Prefix.pch
+c000000004D8AB67400000000000000D0
+t1300936308
+s208
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/singjie/Desktop/fyp/UAV/VerticalSpeedIndicator_Background.png
+c000000004D8AB6740000000000008BF2
+t1300936308
+s35826
+
+N/Users/singjie/Desktop/fyp/UAV/VerticalSpeedNeedle.png
+c000000004D8AB6740000000000000CEB
+t1300936308
+s3307
+
+N/Users/singjie/Desktop/fyp/UAV/aDefault-Landscape.png
+c000000004DDBC72100000000000108D1
+t1306248993
+s67793
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+t1306249576
+s2482
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app.dSYM
+t1306249575
+s102
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1024by1024.bmp
+t1306249573
+s4194360
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981803_Check.png
+t1306249569
+s22911
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981817_Delete.png
+t1306249569
+s13345
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268375_Circle_Red.png
+t1306249569
+s17811
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268387_Circle_Green.png
+t1306249569
+s17796
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1287462562_Next.png
+t1306249569
+s2404
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1304838684_bullet-red.png
+t1306249572
+s1114
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/156-controlpad.png
+t1306249572
+s477
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/3DViewController.nib
+t1306249572
+s875
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/73-radar.png
+t1306249572
+s3822
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/81-dashboard.png
+t1306249569
+s3534
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedIndicator_Background.png
+t1306249570
+s34433
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedNeedle.png
+t1306249570
+s3209
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Altimeter_Background .png
+t1306249570
+s33218
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/BatteryIndicator_Background.png
+t1306249570
+s25377
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Blue.png
+t1306249572
+s18645
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Green.png
+t1306249572
+s17796
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Orange.png
+t1306249572
+s18125
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Red.png
+t1306249572
+s17811
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Crosshair.png
+t1306249569
+s6356
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscape.png
+t1306249569
+s72100
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeLeft.png
+t1306249321
+s73697
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeRight.png
+t1306249011
+s73697
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscapem.png
+t1306249299
+s72100
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GameGraphs.png
+t1306249569
+s41835
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GreenRectangle.png
+t1306249572
+s8806
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GroundSpeedNeedle.png
+t1306249570
+s3207
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HSRGB.plist
+t1306249573
+s122
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Aircraft.png
+t1306249571
+s4103
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Background.png
+t1306249571
+s22965
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingWeel.png
+t1306249571
+s13791
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Horizon_Background.png
+t1306249571
+s13035
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Horizon_GroundSky.bmp
+t1306249572
+s752054
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ImageViewController.nib
+t1306249572
+s795
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Indicator_Background.png
+t1306249571
+s24198
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Info.plist
+t1306249568
+s1018
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LiveImageIPAD.nib
+t1306249571
+s1686
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LongNeedleAltimeter.png
+t1306249571
+s3130
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MainWindowIPAD.nib
+t1306249571
+s2855
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ManualViewController.nib
+t1306249572
+s795
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapArrow.png
+t1306249569
+s2320
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapIPAD.nib
+t1306249572
+s2644
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Maquette_Avion.png
+t1306249571
+s2957
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/PanelsViewController.nib
+t1306249572
+s3797
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/PkgInfo
+t1306249568
+s8
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Play-1-Pressed-icon.png
+t2
+s0
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/RedRectangle.png
+t1306249572
+s8260
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ResourceRules.plist
+t1306249569
+s485
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SLAM.nib
+t1306249572
+s1139
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SettingsIPAD.nib
+t1306249571
+s11741
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SmallNeedleAltimeter.png
+t1306249571
+s3175
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SummaryIPAD.nib
+t1306249571
+s1822
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SummaryTableIPAD.nib
+t1306249571
+s2760
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorAircraft.png
+t1306249571
+s3141
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorBall.png
+t1306249571
+s3204
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorMarks.png
+t1306249571
+s2834
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinator_Background.png
+t1306249571
+s27535
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV
+t1306249575
+s282320
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedIndicator_Background.png
+t1306249572
+s36382
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedNeedle.png
+t1306249572
+s3212
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/aDefault-Landscape.png
+t1306249572
+s73697
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/camera.png
+t1306249569
+s1274
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+t1306249575
+s7589
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/graph.png
+t1306249569
+s585
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/greenForward.png
+t1306249572
+s12165
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/icon.png
+t1306249569
+s11495
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/logo.png
+t1306249572
+s11850
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-Landscape.png
+t1306249426
+s73697
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-LandscapeRight.png
+t1306249379
+s72100
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/move.png
+t1306249569
+s1085
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/plane3.mtl
+t1306249572
+s801
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/plane3.obj
+t1306249572
+s555856
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/preferences.png
+t1306249569
+s1512
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/right-icon.png
+t1306249572
+s5755
+
+N/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/world.png
+t1306249569
+s1873
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/IPAddress.o
+t1306249574
+s13708
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/ImageViewController.o
+t1306249574
+s48712
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/LiveImageViewController.o
+t1306249574
+s62108
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/MapViewController.o
+t1306249574
+s65724
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLTexture3D.o
+t1306249574
+s16664
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLView.o
+t1306249574
+s63568
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLViewController.o
+t1306249574
+s38768
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontGroup.o
+t1306249574
+s12412
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontMaterial.o
+t1306249574
+s27508
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontObject.o
+t1306249574
+s46068
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/PanelsViewController.o
+t1306249574
+s68264
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/S7GraphView.o
+t1306249574
+s72404
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o
+t1306249574
+s60644
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAMView.o
+t1305000150
+s38880
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SettingsViewController.o
+t1306249574
+s155372
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryTableViewCustomCell.o
+t1306249574
+s44912
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryViewController.o
+t1306249574
+s97836
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.LinkFileList
+c000000004DDBC960000000000000098B
+t1306249568
+s2443
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.o
+t1306249574
+s94824
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVAppDelegate.o
+t1306249574
+s62132
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVSTRUCT.o
+t1306249574
+s30652
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/gluLookAt.o
+t1306249574
+s6028
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/main.o
+t1306249574
+s6416
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/rotateImage.o
+t1306249574
+s9336
+
+N/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent
+t1306249575
+s394
+
+N/Users/singjie/Desktop/fyp/UAV/camera.png
+c000000004D8AB674000000000000035B
+t1300936308
+s859
+
+N/Users/singjie/Desktop/fyp/UAV/gluLookAt.h
+c000000004D8AB6740000000000000831
+t1300936308
+s2097
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/singjie/Desktop/fyp/UAV/gluLookAt.m
+c000000004D8AB6740000000000000675
+t1300936308
+s1653
+i"gluLookAt.h"
+
+N/Users/singjie/Desktop/fyp/UAV/graph.png
+c000000004D8AB6740000000000000140
+t1300936308
+s320
+
+N/Users/singjie/Desktop/fyp/UAV/greenForward.png
+c000000004DCB9C4E00000000000031EF
+t1305189454
+s12783
+
+N/Users/singjie/Desktop/fyp/UAV/icon.png
+c000000004D8AB67400000000000024DB
+t1300936308
+s9435
+
+N/Users/singjie/Desktop/fyp/UAV/logo.png
+c000000004D8AB6740000000000002C92
+t1300936308
+s11410
+
+N/Users/singjie/Desktop/fyp/UAV/mDefault-Landscape.png
+c000000004DDBC72100000000000108D1
+t1306248993
+s67793
+
+N/Users/singjie/Desktop/fyp/UAV/mDefault-LandscapeRight.png
+c000000004DDBC65D0000000000010327
+t1306248797
+s66343
+
+N/Users/singjie/Desktop/fyp/UAV/main.m
+c000000004D8AB6740000000000000150
+t1300936308
+s336
+i<UIKit/UIKit.h>
+
+N/Users/singjie/Desktop/fyp/UAV/move.png
+c000000004D8AB67400000000000002DF
+t1300936308
+s735
+
+N/Users/singjie/Desktop/fyp/UAV/plane3.mtl
+c000000004D8AB6740000000000000321
+t1300936308
+s801
+
+N/Users/singjie/Desktop/fyp/UAV/plane3.obj
+c000000004D8AB6740000000000087B50
+t1300936308
+s555856
+
+N/Users/singjie/Desktop/fyp/UAV/preferences.png
+c000000004D8AB67400000000000003FA
+t1300936308
+s1018
+
+N/Users/singjie/Desktop/fyp/UAV/right-icon.png
+c000000004DDB671F0000000000001695
+t1306224415
+s5781
+
+N/Users/singjie/Desktop/fyp/UAV/world.png
+c000000004D8AB67400000000000004AC
+t1300936308
+s1196
+
+N/Users/singjie/Library/MobileDevice/Provisioning Profiles/1A83C148-C96F-4BDF-AA08-349ABDB34597.mobileprovision
+c000000004DC5A2900000000000001D69
+t1304797840
+s7529
+
+N/Users/singjie/Library/MobileDevice/Provisioning Profiles/576E6B82-42C9-40AD-9CBC-B918B9810E75.mobileprovision
+c000000004D8C5CC20000000000001D36
+t1301044418
+s7478
+
+N/Users/singjie/Library/MobileDevice/Provisioning Profiles/5EC0316C-1254-416D-80A9-00D3F5D63A9F.mobileprovision
+c000000004DC7CBC90000000000001DA5
+t1304939465
+s7589
+
+N/var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch.gch
+t1306249573
+s10647452
+
+NUAV-Info.plist
+c000000004DDBC7BF0000000000000452
+t1306249151
+s1106
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327942368#327942368#0(0"0(0#1#0"8665982080#0"0#
+
+CCodeSign /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+s327942375.716707
+e327942376.297817
+r1
+xCodeSign
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+lSLF07#2@37"CodeSign build/Debug-iphoneos/UAV.app327942375#327942376#0(0"0(0#0#59"/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app8657514528#596"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Dong Xiangxu (FK9M57VWC7)" --resource-rules=/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ResourceRules.plist --entitlements /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/IPAddress.o /Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.271327
+e327942374.350935
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/IPAddress.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m: In function 'GetHWAddresses':
+o/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m:198: warning: implicit declaration of function 'ether_ntoa'
+lSLF07#2@58"Compile /Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m327942374#327942374#0(193"/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m: In function 'GetHWAddresses':/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m:198: warning: implicit declaration of function 'ether_ntoa'1(22@45"Implicit declaration of function 'ether_ntoa'327942374#82#111#0(6@50"/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m326533756#198#0#198#0#36"implicit declaration of function '*'0(0#0#50"/Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m8657506400#1574"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/IPAddress.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/IPAddress.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/ImageViewController.o /Users/singjie/Desktop/fyp/UAV/ImageViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.240657
+e327942374.330029
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/ImageViewController.o
+x/Users/singjie/Desktop/fyp/UAV/ImageViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/singjie/Desktop/fyp/UAV/ImageViewController.m327942374#327942374#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/ImageViewController.m8658140000#1586"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/ImageViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/ImageViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/LiveImageViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.875632
+e327942374.078749
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/LiveImageViewController.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m327942373#327942374#0(0"0(0#0#64"/Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m8663124096#1602"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/LiveImageViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/LiveImageViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/MapViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.876810
+e327942374.081251
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/MapViewController.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m327942373#327942374#0(0"0(0#0#58"/Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m8662474880#1590"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/MapViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/MapViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLTexture3D.o /Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.151937
+e327942374.231770
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLTexture3D.o
+x/Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m327942374#327942374#0(0"0(0#0#48"/Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m8662988992#1578"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/OpenGLTexture3D.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLTexture3D.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLView.o /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.081364
+e327942374.239066
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLView.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m327942374#327942374#0(0"0(0#0#51"/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m8665560736#1576"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLView.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLView.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.239195
+e327942374.344410
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLViewController.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m327942374#327942374#0(0"0(0#0#61"/Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m8659385696#1596"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/OpenGLViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontGroup.o /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.169536
+e327942374.240510
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontGroup.o
+x/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m327942374#327942374#0(0"0(0#0#53"/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m8660342496#1588"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontGroup.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontGroup.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontMaterial.o /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.165650
+e327942374.302504
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontMaterial.o
+x/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m327942374#327942374#0(0"0(0#0#56"/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m8660679840#1594"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontMaterial.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontMaterial.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontObject.o /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.084126
+e327942374.303027
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontObject.o
+x/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m327942374#327942374#0(0"0(0#0#54"/Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m8665173184#1590"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/OpenGLWaveFrontObject.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/OpenGLWaveFrontObject.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/PanelsViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.078868
+e327942374.267211
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/PanelsViewController.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m327942374#327942374#0(0"0(0#0#61"/Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m8666293824#1596"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/PanelsViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/PanelsViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/S7GraphView.o /Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.879005
+e327942374.083993
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/S7GraphView.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m327942373#327942374#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m8660512576#1578"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/S7GraphView.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/S7GraphView.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o /Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.267358
+e327942374.372433
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m327942374#327942374#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m8657932480#1564"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/SLAM.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o /Users/singjie/Desktop/fyp/UAV/SLAM.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326527191.385361
+e326527191.413957
+r0
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o
+x/Users/singjie/Desktop/fyp/UAV/SLAM.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/singjie/Desktop/fyp/UAV/SLAM.m: In function '-[SLAM viewDidLoad]':
+o/Users/singjie/Desktop/fyp/UAV/SLAM.m:29: error: 'UAV' undeclared (first use in this function)
+o/Users/singjie/Desktop/fyp/UAV/SLAM.m:29: error: (Each undeclared identifier is reported only once
+o/Users/singjie/Desktop/fyp/UAV/SLAM.m:29: error: for each function it appears in.)
+lSLF07#2@45"Compile /Users/singjie/Desktop/fyp/UAV/SLAM.m326527191#326527191#0(351"/Users/singjie/Desktop/fyp/UAV/SLAM.m: In function '-[SLAM viewDidLoad]':/Users/singjie/Desktop/fyp/UAV/SLAM.m:29: error: 'UAV' undeclared (first use in this function)/Users/singjie/Desktop/fyp/UAV/SLAM.m:29: error: (Each undeclared identifier is reported only once/Users/singjie/Desktop/fyp/UAV/SLAM.m:29: error: for each function it appears in.)1(4@45"'UAV' undeclared (first use in this function)326527191#74#95#0(6@37"/Users/singjie/Desktop/fyp/UAV/SLAM.m326527050#29#0#29#0#43"'*' undeclared (first use in this function)0(0#0#37"/Users/singjie/Desktop/fyp/UAV/SLAM.m8788225504#1556"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/SLAM.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAM.o1#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAMView.o /Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326692950.190882
+e326692950.242274
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAMView.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.m326692950#326692950#0(0"0(0#0#49"/Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.m8636240096#1572"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/SLAMView.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SLAMView.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SettingsViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.880187
+e327942374.344636
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SettingsViewController.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m327942373#327942374#0(0"0(0#0#63"/Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m8660302528#1600"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/SettingsViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SettingsViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryTableViewCustomCell.o /Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.881440
+e327942374.038871
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryTableViewCustomCell.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m327942373#327942374#0(0"0(0#0#67"/Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m8659930208#1608"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/SummaryTableViewCustomCell.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryTableViewCustomCell.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryViewController.o /Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.882812
+e327942374.169410
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryViewController.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m327942373#327942374#0(0"0(0#0#62"/Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m8659409312#1598"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/SummaryViewController.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/SummaryViewController.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.o /Users/singjie/Desktop/fyp/UAV/Classes/UAV.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.018170
+e327942374.271171
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/UAV.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/singjie/Desktop/fyp/UAV/Classes/UAV.m327942374#327942374#0(0"0(0#0#44"/Users/singjie/Desktop/fyp/UAV/Classes/UAV.m8657979712#1562"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/UAV.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVAppDelegate.o /Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.019610
+e327942374.151818
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVAppDelegate.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m327942374#327942374#0(0"0(0#0#55"/Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m8657778528#1584"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/UAVAppDelegate.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVAppDelegate.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVSTRUCT.o /Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.039016
+e327942374.165506
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVSTRUCT.o
+x/Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m327942374#327942374#0(0"0(0#0#42"/Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m8654161824#1566"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/UAVSTRUCT.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAVSTRUCT.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/gluLookAt.o /Users/singjie/Desktop/fyp/UAV/gluLookAt.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942374.231910
+e327942374.302833
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/gluLookAt.o
+x/Users/singjie/Desktop/fyp/UAV/gluLookAt.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/singjie/Desktop/fyp/UAV/gluLookAt.m327942374#327942374#0(0"0(0#0#42"/Users/singjie/Desktop/fyp/UAV/gluLookAt.m8659931936#1566"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/gluLookAt.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/gluLookAt.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/main.o /Users/singjie/Desktop/fyp/UAV/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.874219
+e327942374.017999
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/main.o
+x/Users/singjie/Desktop/fyp/UAV/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/singjie/Desktop/fyp/UAV/main.m327942373#327942374#0(0"0(0#0#37"/Users/singjie/Desktop/fyp/UAV/main.m8664890144#1556"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/main.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/rotateImage.o /Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.877936
+e327942374.019499
+r1
+xCompileC
+xbuild/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/rotateImage.o
+x/Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m327942373#327942374#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m8661178304#1578"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -include /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch -c /Users/singjie/Desktop/fyp/UAV/Classes/rotateImage.m -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/rotateImage.o0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/3DViewController.xib
+s327942371.983276
+e327942372.634779
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/3DViewController.xib
+lSLF07#2@31"CompileXIB 3DViewController.xib327942371#327942372#0(0"0(0#0#51"/Users/singjie/Desktop/fyp/UAV/3DViewController.xib8659005696#526"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/3DViewController.nib /Users/singjie/Desktop/fyp/UAV/3DViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/ImageViewController.xib
+s327942372.570595
+e327942372.938673
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/ImageViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/singjie/Desktop/fyp/UAV/ImageViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on ImageViewController.
+lSLF07#2@34"CompileXIB ImageViewController.xib327942372#327942372#0(224"/* com.apple.ibtool.document.warnings *//Users/singjie/Desktop/fyp/UAV/ImageViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on ImageViewController.1(22@114"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on ImageViewController.327942372#18446744073709551615#0#0(6@54"/Users/singjie/Desktop/fyp/UAV/ImageViewController.xib322673059#18446744073709551615#0#18446744073709551615#0#0"0(0#0#54"/Users/singjie/Desktop/fyp/UAV/ImageViewController.xib8662624832#532"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ImageViewController.nib /Users/singjie/Desktop/fyp/UAV/ImageViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/LiveImageIPAD.xib
+s327942369.489811
+e327942371.751082
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/LiveImageIPAD.xib
+lSLF07#2@28"CompileXIB LiveImageIPAD.xib327942369#327942371#0(0"0(0#0#48"/Users/singjie/Desktop/fyp/UAV/LiveImageIPAD.xib8663661376#520"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LiveImageIPAD.nib /Users/singjie/Desktop/fyp/UAV/LiveImageIPAD.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/MainWindowIPAD.xib
+s327942369.490820
+e327942371.925579
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/MainWindowIPAD.xib
+lSLF07#2@29"CompileXIB MainWindowIPAD.xib327942369#327942371#0(0"0(0#0#49"/Users/singjie/Desktop/fyp/UAV/MainWindowIPAD.xib8661217728#522"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MainWindowIPAD.nib /Users/singjie/Desktop/fyp/UAV/MainWindowIPAD.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/ManualViewController.xib
+s327942371.986396
+e327942372.635787
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/ManualViewController.xib
+lSLF07#2@35"CompileXIB ManualViewController.xib327942371#327942372#0(0"0(0#0#55"/Users/singjie/Desktop/fyp/UAV/ManualViewController.xib8657512416#534"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ManualViewController.nib /Users/singjie/Desktop/fyp/UAV/ManualViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/MapIPAD.xib
+s327942369.546423
+e327942372.607612
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/MapIPAD.xib
+lSLF07#2@22"CompileXIB MapIPAD.xib327942369#327942372#0(0"0(0#0#42"/Users/singjie/Desktop/fyp/UAV/MapIPAD.xib8666244480#508"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapIPAD.nib /Users/singjie/Desktop/fyp/UAV/MapIPAD.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/PanelsViewController.xib
+s327942369.696133
+e327942372.440969
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/PanelsViewController.xib
+lSLF07#2@35"CompileXIB PanelsViewController.xib327942369#327942372#0(0"0(0#0#55"/Users/singjie/Desktop/fyp/UAV/PanelsViewController.xib8661152416#534"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/PanelsViewController.nib /Users/singjie/Desktop/fyp/UAV/PanelsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/SLAM.xib
+s327942372.607708
+e327942372.983890
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/SLAM.xib
+lSLF07#2@19"CompileXIB SLAM.xib327942372#327942372#0(0"0(0#0#39"/Users/singjie/Desktop/fyp/UAV/SLAM.xib8662374912#502"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SLAM.nib /Users/singjie/Desktop/fyp/UAV/SLAM.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/SettingsIPAD.xib
+s327942369.567645
+e327942372.207530
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/SettingsIPAD.xib
+lSLF07#2@27"CompileXIB SettingsIPAD.xib327942369#327942372#0(0"0(0#0#47"/Users/singjie/Desktop/fyp/UAV/SettingsIPAD.xib8665939616#518"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SettingsIPAD.nib /Users/singjie/Desktop/fyp/UAV/SettingsIPAD.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/SummaryIPAD.xib
+s327942369.494269
+e327942371.750206
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/SummaryIPAD.xib
+lSLF07#2@26"CompileXIB SummaryIPAD.xib327942369#327942371#0(0"0(0#0#46"/Users/singjie/Desktop/fyp/UAV/SummaryIPAD.xib8660639296#516"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SummaryIPAD.nib /Users/singjie/Desktop/fyp/UAV/SummaryIPAD.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/singjie/Desktop/fyp/UAV/SummaryTableIPAD.xib
+s327942369.498393
+e327942371.758191
+r1
+xCompileXIB
+x/Users/singjie/Desktop/fyp/UAV/SummaryTableIPAD.xib
+lSLF07#2@31"CompileXIB SummaryTableIPAD.xib327942369#327942371#0(0"0(0#0#51"/Users/singjie/Desktop/fyp/UAV/SummaryTableIPAD.xib8658089536#526"    cd /Users/singjie/Desktop/fyp/UAV    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SummaryTableIPAD.nib /Users/singjie/Desktop/fyp/UAV/SummaryTableIPAD.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile "/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Altimeter_Background .png" "Altimeter_Background .png"
+s327942370.259842
+e327942370.370998
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Altimeter_Background .png
+xAltimeter_Background .png
+lSLF07#2@96"CopyPNGFile "build/Debug-iphoneos/UAV.app/Altimeter_Background .png" "Altimeter_Background .png"327942370#327942370#0(0"0(0#0#56"/Users/singjie/Desktop/fyp/UAV/Altimeter_Background .png8665688896#466"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/singjie/Desktop/fyp/UAV/Altimeter_Background .png" "/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Altimeter_Background .png"0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981803_Check.png 1282981803_Check.png
+s327942369.013676
+e327942369.546309
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981803_Check.png
+x1282981803_Check.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/UAV.app/1282981803_Check.png 1282981803_Check.png327942369#327942369#0(0"0(0#0#51"/Users/singjie/Desktop/fyp/UAV/1282981803_Check.png8665767296#452"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/1282981803_Check.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981803_Check.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981817_Delete.png 1282981817_Delete.png
+s327942369.014179
+e327942369.494176
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981817_Delete.png
+x1282981817_Delete.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/UAV.app/1282981817_Delete.png 1282981817_Delete.png327942369#327942369#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/1282981817_Delete.png8665205088#454"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/1282981817_Delete.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1282981817_Delete.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268375_Circle_Red.png 1284268375_Circle_Red.png
+s327942369.413574
+e327942369.616626
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268375_Circle_Red.png
+x1284268375_Circle_Red.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/UAV.app/1284268375_Circle_Red.png 1284268375_Circle_Red.png327942369#327942369#0(0"0(0#0#56"/Users/singjie/Desktop/fyp/UAV/1284268375_Circle_Red.png8665872992#462"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/1284268375_Circle_Red.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268375_Circle_Red.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268387_Circle_Green.png 1284268387_Circle_Green.png
+s327942369.412928
+e327942369.567533
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268387_Circle_Green.png
+x1284268387_Circle_Green.png
+lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/UAV.app/1284268387_Circle_Green.png 1284268387_Circle_Green.png327942369#327942369#0(0"0(0#0#58"/Users/singjie/Desktop/fyp/UAV/1284268387_Circle_Green.png8665954720#466"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/1284268387_Circle_Green.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1284268387_Circle_Green.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1287462562_Next.png 1287462562_Next.png
+s327942369.414191
+e327942369.498280
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1287462562_Next.png
+x1287462562_Next.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/UAV.app/1287462562_Next.png 1287462562_Next.png327942369#327942369#0(0"0(0#0#50"/Users/singjie/Desktop/fyp/UAV/1287462562_Next.png8665649920#450"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/1287462562_Next.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1287462562_Next.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1304838684_bullet-red.png 1304838684_bullet-red.png
+s327942372.634876
+e327942372.740349
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1304838684_bullet-red.png
+x1304838684_bullet-red.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/UAV.app/1304838684_bullet-red.png 1304838684_bullet-red.png327942372#327942372#0(0"0(0#0#56"/Users/singjie/Desktop/fyp/UAV/1304838684_bullet-red.png8659959456#462"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/1304838684_bullet-red.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/1304838684_bullet-red.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/156-controlpad.png 156-controlpad.png
+s327942372.207607
+e327942372.331344
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/156-controlpad.png
+x156-controlpad.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/UAV.app/156-controlpad.png 156-controlpad.png327942372#327942372#0(0"0(0#0#49"/Users/singjie/Desktop/fyp/UAV/156-controlpad.png8602856000#448"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/156-controlpad.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/156-controlpad.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/73-radar.png 73-radar.png
+s327942372.626937
+e327942372.740495
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/73-radar.png
+x73-radar.png
+lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/UAV.app/73-radar.png 73-radar.png327942372#327942372#0(0"0(0#0#43"/Users/singjie/Desktop/fyp/UAV/73-radar.png8661144160#436"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/73-radar.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/73-radar.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/81-dashboard.png 81-dashboard.png
+s327942369.920778
+e327942369.967432
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/81-dashboard.png
+x81-dashboard.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/UAV.app/81-dashboard.png 81-dashboard.png327942369#327942369#0(0"0(0#0#47"/Users/singjie/Desktop/fyp/UAV/81-dashboard.png8660522944#444"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/81-dashboard.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/81-dashboard.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedIndicator_Background.png AirSpeedIndicator_Background.png
+s327942369.967563
+e327942370.174952
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedIndicator_Background.png
+xAirSpeedIndicator_Background.png
+lSLF07#2@106"CopyPNGFile build/Debug-iphoneos/UAV.app/AirSpeedIndicator_Background.png AirSpeedIndicator_Background.png327942369#327942370#0(0"0(0#0#63"/Users/singjie/Desktop/fyp/UAV/AirSpeedIndicator_Background.png8666294112#476"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/AirSpeedIndicator_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedIndicator_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedNeedle.png AirSpeedNeedle.png
+s327942370.175116
+e327942370.259760
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedNeedle.png
+xAirSpeedNeedle.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/UAV.app/AirSpeedNeedle.png AirSpeedNeedle.png327942370#327942370#0(0"0(0#0#49"/Users/singjie/Desktop/fyp/UAV/AirSpeedNeedle.png8665931584#448"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/AirSpeedNeedle.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/AirSpeedNeedle.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/BatteryIndicator_Background.png BatteryIndicator_Background.png
+s327942370.371074
+e327942370.508671
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/BatteryIndicator_Background.png
+xBatteryIndicator_Background.png
+lSLF07#2@104"CopyPNGFile build/Debug-iphoneos/UAV.app/BatteryIndicator_Background.png BatteryIndicator_Background.png327942370#327942370#0(0"0(0#0#62"/Users/singjie/Desktop/fyp/UAV/BatteryIndicator_Background.png8663706912#474"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/BatteryIndicator_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/BatteryIndicator_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Blue.png Circle_Blue.png
+s327942372.351321
+e327942372.503057
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Blue.png
+xCircle_Blue.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/UAV.app/Circle_Blue.png Circle_Blue.png327942372#327942372#0(0"0(0#0#46"/Users/singjie/Desktop/fyp/UAV/Circle_Blue.png8660327840#442"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Circle_Blue.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Blue.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Green.png Circle_Green.png
+s327942372.437386
+e327942372.626829
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Green.png
+xCircle_Green.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/UAV.app/Circle_Green.png Circle_Green.png327942372#327942372#0(0"0(0#0#47"/Users/singjie/Desktop/fyp/UAV/Circle_Green.png8666263872#444"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Circle_Green.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Green.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Orange.png Circle_Orange.png
+s327942372.569437
+e327942372.739308
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Orange.png
+xCircle_Orange.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/UAV.app/Circle_Orange.png Circle_Orange.png327942372#327942372#0(0"0(0#0#48"/Users/singjie/Desktop/fyp/UAV/Circle_Orange.png8663175968#446"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Circle_Orange.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Orange.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Red.png Circle_Red.png
+s327942372.495448
+e327942372.739090
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Red.png
+xCircle_Red.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/UAV.app/Circle_Red.png Circle_Red.png327942372#327942372#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/Circle_Red.png8665490464#440"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Circle_Red.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Circle_Red.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Crosshair.png Crosshair.png
+s327942369.616738
+e327942369.696056
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Crosshair.png
+xCrosshair.png
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/UAV.app/Crosshair.png Crosshair.png327942369#327942369#0(0"0(0#0#44"/Users/singjie/Desktop/fyp/UAV/Crosshair.png8665747136#438"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Crosshair.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Crosshair.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscape.png Default-Landscape.png
+s327942369.636880
+e327942369.920645
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscape.png
+xDefault-Landscape.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/UAV.app/Default-Landscape.png Default-Landscape.png327942369#327942369#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/Default-Landscape.png8665097760#454"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Default-Landscape.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscape.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeLeft.png Default-LandscapeLeft.png
+s327942121.385541
+e327942121.646398
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeLeft.png
+xDefault-LandscapeLeft.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/UAV.app/Default-LandscapeLeft.png Default-LandscapeLeft.png327942121#327942121#0(0"0(0#0#56"/Users/singjie/Desktop/fyp/UAV/Default-LandscapeLeft.png8631732064#462"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Default-LandscapeLeft.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeLeft.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeRight.png Default-LandscapeRight.png
+s327941811.275137
+e327941811.503705
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeRight.png
+xDefault-LandscapeRight.png
+lSLF07#2@94"CopyPNGFile build/Debug-iphoneos/UAV.app/Default-LandscapeRight.png Default-LandscapeRight.png327941811#327941811#0(0"0(0#0#57"/Users/singjie/Desktop/fyp/UAV/Default-LandscapeRight.png8609249376#464"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Default-LandscapeRight.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-LandscapeRight.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscapem.png Default-Landscapem.png
+s327942098.807474
+e327942099.094808
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscapem.png
+xDefault-Landscapem.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/UAV.app/Default-Landscapem.png Default-Landscapem.png327942098#327942099#0(0"0(0#0#53"/Users/singjie/Desktop/fyp/UAV/Default-Landscapem.png8631358720#456"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Default-Landscapem.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Default-Landscapem.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GameGraphs.png GameGraphs.png
+s327942369.012713
+e327942369.636747
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GameGraphs.png
+xGameGraphs.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/UAV.app/GameGraphs.png GameGraphs.png327942369#327942369#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/GameGraphs.png8666220352#440"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/GameGraphs.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GameGraphs.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GreenRectangle.png GreenRectangle.png
+s327942372.439316
+e327942372.569336
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GreenRectangle.png
+xGreenRectangle.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/UAV.app/GreenRectangle.png GreenRectangle.png327942372#327942372#0(0"0(0#0#49"/Users/singjie/Desktop/fyp/UAV/GreenRectangle.png8666013568#448"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/GreenRectangle.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GreenRectangle.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GroundSpeedNeedle.png GroundSpeedNeedle.png
+s327942370.508861
+e327942370.759056
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GroundSpeedNeedle.png
+xGroundSpeedNeedle.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/UAV.app/GroundSpeedNeedle.png GroundSpeedNeedle.png327942370#327942370#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/GroundSpeedNeedle.png8665574112#454"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/GroundSpeedNeedle.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/GroundSpeedNeedle.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Aircraft.png HeadingIndicator_Aircraft.png
+s327942370.759139
+e327942371.401737
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Aircraft.png
+xHeadingIndicator_Aircraft.png
+lSLF07#2@100"CopyPNGFile build/Debug-iphoneos/UAV.app/HeadingIndicator_Aircraft.png HeadingIndicator_Aircraft.png327942370#327942371#0(0"0(0#0#60"/Users/singjie/Desktop/fyp/UAV/HeadingIndicator_Aircraft.png8665486592#470"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/HeadingIndicator_Aircraft.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Aircraft.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Background.png HeadingIndicator_Background.png
+s327942371.401851
+e327942371.506270
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Background.png
+xHeadingIndicator_Background.png
+lSLF07#2@104"CopyPNGFile build/Debug-iphoneos/UAV.app/HeadingIndicator_Background.png HeadingIndicator_Background.png327942371#327942371#0(0"0(0#0#62"/Users/singjie/Desktop/fyp/UAV/HeadingIndicator_Background.png8665581856#474"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/HeadingIndicator_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingIndicator_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingWeel.png HeadingWeel.png
+s327942371.506380
+e327942371.627782
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingWeel.png
+xHeadingWeel.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/UAV.app/HeadingWeel.png HeadingWeel.png327942371#327942371#0(0"0(0#0#46"/Users/singjie/Desktop/fyp/UAV/HeadingWeel.png8664353760#442"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/HeadingWeel.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HeadingWeel.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Horizon_Background.png Horizon_Background.png
+s327942371.627856
+e327942371.730115
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Horizon_Background.png
+xHorizon_Background.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/UAV.app/Horizon_Background.png Horizon_Background.png327942371#327942371#0(0"0(0#0#53"/Users/singjie/Desktop/fyp/UAV/Horizon_Background.png8657676544#456"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Horizon_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Horizon_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Indicator_Background.png Indicator_Background.png
+s327942371.730199
+e327942371.982199
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Indicator_Background.png
+xIndicator_Background.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/UAV.app/Indicator_Background.png Indicator_Background.png327942371#327942371#0(0"0(0#0#55"/Users/singjie/Desktop/fyp/UAV/Indicator_Background.png8666246240#460"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Indicator_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Indicator_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LongNeedleAltimeter.png LongNeedleAltimeter.png
+s327942371.750317
+e327942371.793784
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LongNeedleAltimeter.png
+xLongNeedleAltimeter.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/UAV.app/LongNeedleAltimeter.png LongNeedleAltimeter.png327942371#327942371#0(0"0(0#0#54"/Users/singjie/Desktop/fyp/UAV/LongNeedleAltimeter.png8665926144#458"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/LongNeedleAltimeter.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/LongNeedleAltimeter.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapArrow.png MapArrow.png
+s327942369.414805
+e327942369.490749
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapArrow.png
+xMapArrow.png
+lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/UAV.app/MapArrow.png MapArrow.png327942369#327942369#0(0"0(0#0#43"/Users/singjie/Desktop/fyp/UAV/MapArrow.png8665500000#436"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/MapArrow.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/MapArrow.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Maquette_Avion.png Maquette_Avion.png
+s327942371.751210
+e327942371.793917
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Maquette_Avion.png
+xMaquette_Avion.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/UAV.app/Maquette_Avion.png Maquette_Avion.png327942371#327942371#0(0"0(0#0#49"/Users/singjie/Desktop/fyp/UAV/Maquette_Avion.png8665613152#448"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/Maquette_Avion.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Maquette_Avion.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Play-1-Pressed-icon.png Play-1-Pressed-icon.png
+r0
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/RedRectangle.png RedRectangle.png
+s327942372.441078
+e327942372.570507
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/RedRectangle.png
+xRedRectangle.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/UAV.app/RedRectangle.png RedRectangle.png327942372#327942372#0(0"0(0#0#47"/Users/singjie/Desktop/fyp/UAV/RedRectangle.png8665753952#444"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/RedRectangle.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/RedRectangle.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SmallNeedleAltimeter.png SmallNeedleAltimeter.png
+s327942371.758311
+e327942371.795080
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SmallNeedleAltimeter.png
+xSmallNeedleAltimeter.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/UAV.app/SmallNeedleAltimeter.png SmallNeedleAltimeter.png327942371#327942371#0(0"0(0#0#55"/Users/singjie/Desktop/fyp/UAV/SmallNeedleAltimeter.png8665097568#460"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/SmallNeedleAltimeter.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/SmallNeedleAltimeter.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorAircraft.png TurnCoordinatorAircraft.png
+s327942371.794572
+e327942371.982519
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorAircraft.png
+xTurnCoordinatorAircraft.png
+lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/UAV.app/TurnCoordinatorAircraft.png TurnCoordinatorAircraft.png327942371#327942371#0(0"0(0#0#58"/Users/singjie/Desktop/fyp/UAV/TurnCoordinatorAircraft.png8662587296#466"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/TurnCoordinatorAircraft.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorAircraft.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorBall.png TurnCoordinatorBall.png
+s327942371.795148
+e327942371.913960
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorBall.png
+xTurnCoordinatorBall.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/UAV.app/TurnCoordinatorBall.png TurnCoordinatorBall.png327942371#327942371#0(0"0(0#0#54"/Users/singjie/Desktop/fyp/UAV/TurnCoordinatorBall.png8661193312#458"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/TurnCoordinatorBall.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorBall.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorMarks.png TurnCoordinatorMarks.png
+s327942371.914192
+e327942371.982371
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorMarks.png
+xTurnCoordinatorMarks.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/UAV.app/TurnCoordinatorMarks.png TurnCoordinatorMarks.png327942371#327942371#0(0"0(0#0#55"/Users/singjie/Desktop/fyp/UAV/TurnCoordinatorMarks.png8660710016#460"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/TurnCoordinatorMarks.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinatorMarks.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinator_Background.png TurnCoordinator_Background.png
+s327942371.793982
+e327942371.986308
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinator_Background.png
+xTurnCoordinator_Background.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/UAV.app/TurnCoordinator_Background.png TurnCoordinator_Background.png327942371#327942371#0(0"0(0#0#61"/Users/singjie/Desktop/fyp/UAV/TurnCoordinator_Background.png8662990848#472"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/TurnCoordinator_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/TurnCoordinator_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedIndicator_Background.png VerticalSpeedIndicator_Background.png
+s327942371.925665
+e327942372.351193
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedIndicator_Background.png
+xVerticalSpeedIndicator_Background.png
+lSLF07#2@116"CopyPNGFile build/Debug-iphoneos/UAV.app/VerticalSpeedIndicator_Background.png VerticalSpeedIndicator_Background.png327942371#327942372#0(0"0(0#0#68"/Users/singjie/Desktop/fyp/UAV/VerticalSpeedIndicator_Background.png8660098912#486"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/VerticalSpeedIndicator_Background.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedIndicator_Background.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedNeedle.png VerticalSpeedNeedle.png
+s327942371.982614
+e327942372.126963
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedNeedle.png
+xVerticalSpeedNeedle.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/UAV.app/VerticalSpeedNeedle.png VerticalSpeedNeedle.png327942371#327942372#0(0"0(0#0#54"/Users/singjie/Desktop/fyp/UAV/VerticalSpeedNeedle.png8659383936#458"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/VerticalSpeedNeedle.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/VerticalSpeedNeedle.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/aDefault-Landscape.png aDefault-Landscape.png
+s327942372.740578
+e327942373.016627
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/aDefault-Landscape.png
+xaDefault-Landscape.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/UAV.app/aDefault-Landscape.png aDefault-Landscape.png327942372#327942373#0(0"0(0#0#53"/Users/singjie/Desktop/fyp/UAV/aDefault-Landscape.png8652769344#456"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/aDefault-Landscape.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/aDefault-Landscape.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/camera.png camera.png
+s327942369.016285
+e327942369.411033
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/camera.png
+xcamera.png
+lSLF07#2@62"CopyPNGFile build/Debug-iphoneos/UAV.app/camera.png camera.png327942369#327942369#0(0"0(0#0#41"/Users/singjie/Desktop/fyp/UAV/camera.png8660665184#432"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/camera.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/camera.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/graph.png graph.png
+s327942369.015583
+e327942369.412706
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/graph.png
+xgraph.png
+lSLF07#2@60"CopyPNGFile build/Debug-iphoneos/UAV.app/graph.png graph.png327942369#327942369#0(0"0(0#0#40"/Users/singjie/Desktop/fyp/UAV/graph.png8661095328#430"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/graph.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/graph.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/greenForward.png greenForward.png
+s327942372.636600
+e327942372.809731
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/greenForward.png
+xgreenForward.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/UAV.app/greenForward.png greenForward.png327942372#327942372#0(0"0(0#0#47"/Users/singjie/Desktop/fyp/UAV/greenForward.png8659067584#444"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/greenForward.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/greenForward.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/icon.png icon.png
+s327942369.013224
+e327942369.412418
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/icon.png
+xicon.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/UAV.app/icon.png icon.png327942369#327942369#0(0"0(0#0#39"/Users/singjie/Desktop/fyp/UAV/icon.png8666002432#428"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/icon.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/icon.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/logo.png logo.png
+s327942372.331630
+e327942372.439200
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/logo.png
+xlogo.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/UAV.app/logo.png logo.png327942372#327942372#0(0"0(0#0#39"/Users/singjie/Desktop/fyp/UAV/logo.png8660510592#428"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/logo.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/logo.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-Landscape.png mDefault-Landscape.png
+s327942226.092654
+e327942226.319004
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-Landscape.png
+xmDefault-Landscape.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/UAV.app/mDefault-Landscape.png mDefault-Landscape.png327942226#327942226#0(0"0(0#0#53"/Users/singjie/Desktop/fyp/UAV/mDefault-Landscape.png8646361984#456"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/mDefault-Landscape.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-Landscape.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-LandscapeRight.png mDefault-LandscapeRight.png
+s327942178.895949
+e327942179.214097
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-LandscapeRight.png
+xmDefault-LandscapeRight.png
+lSLF07#2@96"CopyPNGFile build/Debug-iphoneos/UAV.app/mDefault-LandscapeRight.png mDefault-LandscapeRight.png327942178#327942179#0(0"0(0#0#58"/Users/singjie/Desktop/fyp/UAV/mDefault-LandscapeRight.png8647990080#466"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/mDefault-LandscapeRight.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/mDefault-LandscapeRight.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/move.png move.png
+s327942369.411181
+e327942369.489719
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/move.png
+xmove.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/UAV.app/move.png move.png327942369#327942369#0(0"0(0#0#39"/Users/singjie/Desktop/fyp/UAV/move.png8666322048#428"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/move.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/move.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/preferences.png preferences.png
+s327942369.014895
+e327942369.412564
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/preferences.png
+xpreferences.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/UAV.app/preferences.png preferences.png327942369#327942369#0(0"0(0#0#46"/Users/singjie/Desktop/fyp/UAV/preferences.png8662360672#442"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/preferences.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/preferences.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/right-icon.png right-icon.png
+s327942372.739441
+e327942372.793106
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/right-icon.png
+xright-icon.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/UAV.app/right-icon.png right-icon.png327942372#327942372#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/right-icon.png8657826464#440"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/right-icon.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/right-icon.png0#
+
+CCopyPNGFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/world.png world.png
+s327942369.016993
+e327942369.412839
+r1
+xCopyPNGFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/world.png
+xworld.png
+lSLF07#2@60"CopyPNGFile build/Debug-iphoneos/UAV.app/world.png world.png327942369#327942369#0(0"0(0#0#40"/Users/singjie/Desktop/fyp/UAV/world.png8660478944#430"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/singjie/Desktop/fyp/UAV/world.png /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/world.png0#
+
+CCopyPlistFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HSRGB.plist HSRGB.plist
+s327942372.503177
+e327942373.079989
+r1
+xCopyPlistFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/HSRGB.plist
+xHSRGB.plist
+lSLF07#2@16"Copy HSRGB.plist327942372#327942373#0(0"0(0#0#42"/Users/singjie/Desktop/fyp/UAV/HSRGB.plist8665028064#352"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 HSRGB.plist --outdir /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CCpResource build/Debug-iphoneos/UAV.app/1024by1024.bmp 1024by1024.bmp
+s327942372.635876
+e327942373.178273
+r1
+xCpResource
+xbuild/Debug-iphoneos/UAV.app/1024by1024.bmp
+x1024by1024.bmp
+lSLF07#2@19"Copy 1024by1024.bmp327942372#327942373#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/1024by1024.bmp8659597408#430"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/singjie/Desktop/fyp/UAV/1024by1024.bmp /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CCpResource build/Debug-iphoneos/UAV.app/Horizon_GroundSky.bmp Horizon_GroundSky.bmp
+s327942371.983991
+e327942372.495331
+r1
+xCpResource
+xbuild/Debug-iphoneos/UAV.app/Horizon_GroundSky.bmp
+xHorizon_GroundSky.bmp
+lSLF07#2@26"Copy Horizon_GroundSky.bmp327942371#327942372#0(0"0(0#0#52"/Users/singjie/Desktop/fyp/UAV/Horizon_GroundSky.bmp8658583392#437"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/singjie/Desktop/fyp/UAV/Horizon_GroundSky.bmp /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CCpResource build/Debug-iphoneos/UAV.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s327942368.966517
+e327942369.012647
+r1
+xCpResource
+xbuild/Debug-iphoneos/UAV.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist327942368#327942369#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8657856416#474"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CCpResource build/Debug-iphoneos/UAV.app/plane3.mtl plane3.mtl
+s327942371.985471
+e327942372.047878
+r1
+xCpResource
+xbuild/Debug-iphoneos/UAV.app/plane3.mtl
+xplane3.mtl
+lSLF07#2@15"Copy plane3.mtl327942371#327942372#0(0"0(0#0#41"/Users/singjie/Desktop/fyp/UAV/plane3.mtl8657917344#426"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/singjie/Desktop/fyp/UAV/plane3.mtl /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CCpResource build/Debug-iphoneos/UAV.app/plane3.obj plane3.obj
+s327942371.984700
+e327942372.437274
+r1
+xCpResource
+xbuild/Debug-iphoneos/UAV.app/plane3.obj
+xplane3.obj
+lSLF07#2@15"Copy plane3.obj327942371#327942372#0(0"0(0#0#41"/Users/singjie/Desktop/fyp/UAV/plane3.obj8658044544#426"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/singjie/Desktop/fyp/UAV/plane3.obj /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+
+CGenerateDSYMFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app.dSYM /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV
+s327942375.627346
+e327942375.671754
+r1
+xGenerateDSYMFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app.dSYM
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV
+lSLF07#2@83"GenerateDSYMFile build/Debug-iphoneos/UAV.app.dSYM build/Debug-iphoneos/UAV.app/UAV327942375#327942375#0(0"0(0#0#63"/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV8661096416#326"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV -o /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app.dSYM0#
+
+CLd /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV normal armv7
+s327942374.372506
+e327942375.627188
+r1
+xLd
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV
+xnormal
+xarmv7
+lSLF07#2@68"Link /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV327942374#327942375#0(0"0(0#0#0"8665505344#879"    cd /Users/singjie/Desktop/fyp/UAV    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -filelist /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/Objects-normal/armv7/UAV.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -lsqlite3.0 -framework QuartzCore -framework OpenGLES -framework CoreLocation -framework MessageUI -o /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/UAV0#
+
+CProcessInfoPlistFile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Info.plist UAV-Info.plist
+s327942368.967212
+e327942368.986667
+r1
+xProcessInfoPlistFile
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Info.plist
+xUAV-Info.plist
+lSLF07#2@22"Process UAV-Info.plist327942368#327942368#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/UAV-Info.plist8657778272#514"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UAV-Info.plist -genpkginfo /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/ResourceRules.plist -o /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/Info.plist0#
+
+CProcessPCH /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch.gch UAV_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327942373.178539
+e327942373.873949
+r1
+xProcessPCH
+x/var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch.gch
+xUAV_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile UAV_Prefix.pch327942373#327942373#0(0"0(0#0#45"/Users/singjie/Desktop/fyp/UAV/UAV_Prefix.pch8666234336#1466"    cd /Users/singjie/Desktop/fyp/UAV    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-generated-files.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-own-target-headers.hmap -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-all-target-headers.hmap -iquote /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV-project-headers.hmap -F/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos -I/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/include -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources/armv7 -I/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/DerivedSources -c /Users/singjie/Desktop/fyp/UAV/UAV_Prefix.pch -o /var/folders/+X/+XL0Lq0HETyYi6H2YHRC-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UAV_Prefix-bvrhigietssmbpecmaxbdwxdzbyq/UAV_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/1A83C148-C96F-4BDF-AA08-349ABDB34597.mobileprovision" /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+s326490732.025835
+e326490732.050720
+r1
+xProcessProductPackaging
+x/Users/singjie/Library/MobileDevice/Provisioning Profiles/1A83C148-C96F-4BDF-AA08-349ABDB34597.mobileprovision
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/1A83C148-C96F-4BDF-AA08-349ABDB34597.mobileprovision" build/Debug-iphoneos/UAV.app/embedded.mobileprovision326490732#326490732#0(0"0(0#0#84"/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision28429402151059556#405"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/singjie/Library/MobileDevice/Provisioning Profiles/1A83C148-C96F-4BDF-AA08-349ABDB34597.mobileprovision" -o /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/576E6B82-42C9-40AD-9CBC-B918B9810E75.mobileprovision" /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+s322737400.804780
+e322737400.820207
+r1
+xProcessProductPackaging
+x/Users/singjie/Library/MobileDevice/Provisioning Profiles/576E6B82-42C9-40AD-9CBC-B918B9810E75.mobileprovision
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/576E6B82-42C9-40AD-9CBC-B918B9810E75.mobileprovision" build/Debug-iphoneos/UAV.app/embedded.mobileprovision322737400#322737400#0(0"0(0#0#84"/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision8617442848#405"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/singjie/Library/MobileDevice/Provisioning Profiles/576E6B82-42C9-40AD-9CBC-B918B9810E75.mobileprovision" -o /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/5EC0316C-1254-416D-80A9-00D3F5D63A9F.mobileprovision" /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+s327942375.671857
+e327942375.696094
+r1
+xProcessProductPackaging
+x/Users/singjie/Library/MobileDevice/Provisioning Profiles/5EC0316C-1254-416D-80A9-00D3F5D63A9F.mobileprovision
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/singjie/Library/MobileDevice/Provisioning Profiles/5EC0316C-1254-416D-80A9-00D3F5D63A9F.mobileprovision" build/Debug-iphoneos/UAV.app/embedded.mobileprovision327942375#327942375#0(0"0(0#0#84"/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision8660358752#405"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/singjie/Library/MobileDevice/Provisioning Profiles/5EC0316C-1254-416D-80A9-00D3F5D63A9F.mobileprovision" -o /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent
+s327942375.704244
+e327942375.716648
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent
+lSLF07#2@163"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent327942375#327942375#0(0"0(0#0#81"/Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent8658320640#404"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/singjie/Desktop/fyp/UAV/build/UAV.build/Debug-iphoneos/UAV.build/UAV.xcent0#
+
+CTouch /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+s327942375.696225
+e327942375.704070
+r1
+xTouch
+x/Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app
+lSLF07#2@65"Touch /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app327942375#327942375#0(0"0(0#0#0"8659875392#244"    cd /Users/singjie/Desktop/fyp/UAV    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/singjie/Desktop/fyp/UAV/build/Debug-iphoneos/UAV.app0#
+

@@ -1,0 +1,55 @@
+//
+//  SLAMView.m
+//  UAV
+//
+//  Created by Lee Sing Jie on 5/9/11.
+//  Copyright 2011 NUS. All rights reserved.
+//
+
+#import "SLAMView.h"
+
+
+@implementation SLAMView
+
+
+- (id)initWithFrame:(CGRect)frame {
+    
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code.
+    }
+    return self;
+}
+
+
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code.
+	
+	CGContextRef ctx = UIGraphicsGetCurrentContext(); //get the graphics context
+	CGContextSetRGBStrokeColor(ctx, 1.0, 0, 0, 1); //there are two relevant color states, "Stroke" -- used in Stroke drawing functions and "Fill" - used in fill drawing functions
+	
+	CGContextMoveToPoint(ctx, 0, 0);
+	//now we build a "path"
+	//you can either directly build it on the context or build a path object, here I build it on the context
+	for (int i=0; i<10000; i++) {
+		
+		int randf = rand() % 1024;
+		//NSLog(@"%d", randf);
+		CGContextAddLineToPoint( ctx, randf+1,randf+1);
+	
+	}
+	CGContextStrokePath(ctx);
+
+	//"stroke" the path
+	NSLog(@"drawn");
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

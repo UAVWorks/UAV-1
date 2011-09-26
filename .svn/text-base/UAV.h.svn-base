@@ -1,0 +1,35 @@
+//
+//  UAV.h
+//  UAV
+//
+//  Created by Eric Dong on 11/2/10.
+//  Copyright 2010 NUS. All rights reserved.
+//
+/*
+#import <Foundation/Foundation.h>
+
+
+
+@interface UAV : NSObject {
+	struct UAVSTATE{
+		double x,y,z;	//position
+		double u,v,w;	//velocity
+		double a,b,c;	//altitude
+		double p,q,r;	//rotating
+		
+		double acx, acy, acz; //acelerate along x,y,z
+		double acp, acq, acr;
+		
+		double ug, vg, wg;	//velocity in user ground frame
+		double longitude, latitude, altitude;
+		
+		double as, bs, rfb; //observable variables
+		
+		int imagePackets;
+		
+	} *currentDataNew;	
+}
+-(UAV*) initialize;
+
+@end
+*/
