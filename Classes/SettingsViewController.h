@@ -1,11 +1,3 @@
-//
-//  SettingsViewController.h
-//  UAV
-//
-//  Created by Eric Dong on 8/18/10.
-//  Copyright 2010 NUS. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 //#import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
@@ -15,73 +7,31 @@
 #import "OpenGLViewController.h"
 #import "IPAddress.h"
 #import "SLAM.h"
+#import "ImageProcessingImpl.hpp"
 
-
+#define DATA_STATE		0x21
+#define DATA_SVO		0x16
+#define DATA_SIG		0x17
+#define COMMAND_IMAGE   120
 
 @interface SettingsViewController : UIViewController <MFMailComposeViewControllerDelegate>{
-	int sockfd;
-	IBOutlet UISwitch *connectSwitch;
-	IBOutlet UILabel *status;
-
-	IBOutlet UIImageView *connected;
-	
-	IBOutlet UIImageView *notConnected;
+	int datasockfd;
+    int imagesockfd;
 	IBOutlet UITextField *consoleInput;
+	IBOutlet UITextField *imageIPTextField;
+	IBOutlet UITextField *imagePortTextField;
+	IBOutlet UITextField *dataPortTextField;
+	IBOutlet UISwitch *connectSwitch;
+	IBOutlet UISwitch *listenSwitch;
+	IBOutlet UILabel *gcsIP;
+	IBOutlet UILabel *dataPort;
+    IBOutlet UILabel *imageIP;
+    IBOutlet UITextView *bufferOutput;
 	int prevRow;
-	
-	IBOutlet UILabel *uavIP;
 	
 	int filelist;
 	
-	NSString *defaultConnectedText;
-	
-	IBOutlet UISlider *slider1;
-	IBOutlet UISlider *slider2;
-	IBOutlet UISlider *slider3;
-	IBOutlet UISlider *slider4;
-	IBOutlet UISlider *slider5;
-	IBOutlet UISlider *slider6;
-	IBOutlet UISlider *slider7;
-	IBOutlet UISlider *slider8;
-	
-	IBOutlet UILabel *sliderText1;
-	IBOutlet UILabel *sliderText2;
-	IBOutlet UILabel *sliderText3;
-	IBOutlet UILabel *sliderText4;
-	IBOutlet UILabel *sliderText5;
-	IBOutlet UILabel *sliderText6;
-	IBOutlet UILabel *sliderText7;
-	IBOutlet UILabel *sliderText8;
-	
-	
-	IBOutlet UIButton *sliderAdd1;
-	IBOutlet UIButton *sliderAdd2;
-	IBOutlet UIButton *sliderAdd3;
-	IBOutlet UIButton *sliderAdd4;
-	IBOutlet UIButton *sliderAdd5;
-	IBOutlet UIButton *sliderAdd6;
-	IBOutlet UIButton *sliderAdd7;
-	IBOutlet UIButton *sliderAdd8;
-	
-	IBOutlet UIButton *sliderSub1;
-	IBOutlet UIButton *sliderSub2;
-	IBOutlet UIButton *sliderSub3;
-	IBOutlet UIButton *sliderSub4;
-	IBOutlet UIButton *sliderSub5;
-	IBOutlet UIButton *sliderSub6;
-	IBOutlet UIButton *sliderSub7;
-	IBOutlet UIButton *sliderSub8;
-	
-	IBOutlet UILabel *sliderLabel1;
-	IBOutlet UILabel *sliderLabel2;
-	IBOutlet UILabel *sliderLabel3;
-	IBOutlet UILabel *sliderLabel4;
-	IBOutlet UILabel *sliderLabel5;
-	IBOutlet UILabel *sliderLabel6;
-	IBOutlet UILabel *sliderLabel7;
-	IBOutlet UILabel *sliderLabel8;
-	
-	
+	NSString *defaultConnectedText;	
 	UIImageView *imageView;
 	
 	BOOL notFirstTimeActivate;
@@ -95,26 +45,22 @@
 	IBOutlet UIButton *calibrateCamera;
 }
 
-@property (nonatomic, retain) UISwitch *connectSwitch;
-@property (nonatomic, retain) UILabel *status;
-@property (nonatomic, retain) UIImageView *connected;
-@property (nonatomic, retain) UIImageView *notConnected;
 @property (nonatomic, retain) UITextField *consoleInput;
-@property (nonatomic, retain) UILabel *uavIP;
+@property (nonatomic, retain) UITextField *imageIPTextField;
+@property (nonatomic, retain) UITextField *imagePortTextField;
+@property (nonatomic, retain) UITextField *dataPortTextField;
+@property (nonatomic, retain) UISwitch *connectSwitch;
+@property (nonatomic, retain) UISwitch *listenSwitch;
+@property (nonatomic, retain) UILabel *gcsIP;
+@property (nonatomic, retain) UILabel *dataPort;
+@property (nonatomic, retain) UILabel *imageIP;
 @property (nonatomic, retain) NSArray *viewControllersFull;
 
-- (void)setEnableSliders:(BOOL)enable;
-
 - (IBAction) connectSwitchToggled: (id)sender;
+- (IBAction) listenSwitchToggled: (id)sender;
 - (IBAction) sendData: (id) sender;
 - (IBAction) emailData: (id) sender;
-- (IBAction)valueChangedForSliders;
 - (IBAction) deleteAllJPG: (id) sender;
-- (IBAction) calibrateCamera: (UIButton*) sender;
-- (IBAction) addValue: (UIButton*) sender;
-- (IBAction) subValue: (UIButton*) sender;
 -(IBAction) viewJpeg:(id) sender;
-- (IBAction) uavTypeToggled:(id)sender;
-- (void)setVisibleSliders:(double)alpha;
 
 @end

@@ -1,11 +1,3 @@
-//
-//  IPAddress.m
-//  UAV
-//
-//  Created by Lee Sing Jie on 5/8/11.
-//  Copyright 2011 NUS. All rights reserved.
-//
-
 #import "IPAddress.h"
 
 #include <stdio.h>

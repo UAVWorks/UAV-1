@@ -71,7 +71,7 @@
 			} else if ([gesture translationInView:self.view].x - previousCoordinate.x > 0) {
 				fileID--;
 				if (fileID <= 0) {
-					fileID == 1;
+					fileID = 1;
 				}
 			} 
 		} else {
@@ -81,7 +81,7 @@
 			} else if ([gesture translationInView:self.view].y - previousCoordinate.y > 0) {
 				fileID-=20;
 				if (fileID <= 0) {
-					fileID == 1;
+					fileID = 1;
 				}
 			} 
 		}

@@ -1,11 +1,3 @@
-//
-//  UAV.m
-//  UAV
-//
-//  Created by Eric Dong on 11/2/10.
-//  Copyright 2010 NUS. All rights reserved.
-//
-
 #import "UAV.h"
 
 static UAV *sharedInstance = nil;
@@ -14,32 +6,24 @@ static UAV *sharedInstance = nil;
 
 @synthesize db;
 @synthesize sqlLock;
-@synthesize imageLock;
+@synthesize fullImageLock;
 @synthesize fullDataLock;
-
+@synthesize liveImage;
 @synthesize image;
 @synthesize newest600Data;
+@synthesize latestTelegraph;
 @synthesize latestData;
-
 @synthesize fullData;
-
+@synthesize fullImage;
 @synthesize firstPacketDate;
 @synthesize uavIP;
-
 @synthesize consoleCommandShortcuts;
-
 @synthesize activityIndicator;
-
 @synthesize graphIsZoomed;
-
 @synthesize packetImproper;
-
 @synthesize uavFound;
-
 @synthesize autoMode;
-
 @synthesize SQLFileName;
-
 @synthesize currentUAVType;
 #pragma mark -
 #pragma mark SQL DB Methods
@@ -48,13 +32,14 @@ static UAV *sharedInstance = nil;
 	//auto Mode = TRUE;
 	autoMode = TRUE;
 	sqlLock = [[NSLock alloc] init];
-	imageLock = [[NSLock alloc] init];
+	fullImageLock = [[NSLock alloc] init];
 	fullDataLock = [[NSLock alloc] init];
 	uavIP = [NSString stringWithString:@"192.168.1.3"];
+    //ENDTODO
 	activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
 	
 	fullData = [[NSMutableArray array] retain];
-	
+	fullImage = [[NSMutableArray array] retain];
 	for(int i=0;i<1;i++){
 		UAVSTRUCT *uav = [[UAVSTRUCT alloc] init] ;
 		uav.x = 0.00;
@@ -95,6 +80,7 @@ static UAV *sharedInstance = nil;
 		
 		[fullData addObject:uav];
 	}
+    
 	
 	consoleCommandShortcuts = [[[NSArray alloc] initWithObjects:
 								
@@ -115,15 +101,7 @@ static UAV *sharedInstance = nil;
 								nil] retain];
 	
 	
-	s = socket(AF_INET, SOCK_DGRAM, 0);
-	
-	bzero(&UAVAddr, sizeof(UAVAddr));
-	UAVAddr.sin_family = AF_INET;
-	
-	inet_pton(AF_INET, [uavIP UTF8String], &(UAVAddr.sin_addr));
-	UAVAddr.sin_port = htons(9002);
-	
-	bind(s, (struct sockaddr *)&UAVAddr, sizeof(UAVAddr));
+	sendsockfd = socket(AF_INET, SOCK_DGRAM, 0);
 	
 	currentUAVType = kUAVTypeMerlion;
 	
@@ -177,6 +155,7 @@ static UAV *sharedInstance = nil;
 	[insertSQL release];
 	
 }
+
 -(NSMutableArray*) getLatestRowData {
 	
 	NSMutableArray *results;
@@ -221,13 +200,17 @@ static UAV *sharedInstance = nil;
 	[results addObject:[NSNumber numberWithDouble:uav.as]];
 	[results addObject:[NSNumber numberWithDouble:uav.bs]];
 	[results addObject:[NSNumber numberWithDouble:uav.rfb]];
-	
-	[results addObject:[NSNumber numberWithDouble:uav.ms]];
 	[sqlLock unlock];
 	//return results;
 	
 	return results;
 }
+
+-(UIImage*) getLatestImageData {
+		
+	return (UIImage*) [[UAV sharedInstance].fullImage lastObject] ;
+}
+
 -(BOOL) parseAndSendCommand:(NSString *)string{
 	
 	struct COMMAND cmd;
@@ -244,7 +227,6 @@ static UAV *sharedInstance = nil;
 	if([result count] == 1){
 		if ([string isEqualToString:@"quit"]) {
 			cmd.code = COMMAND_QUIT;
-			
 		}
 		else if ([string isEqualToString:@"run"]){
 			cmd.code = COMMAND_RUN;
@@ -370,13 +352,13 @@ static UAV *sharedInstance = nil;
 			return false;
 		}
 	}
-	int rv = sendto(s, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
+	int rv = sendto(sendsockfd, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
 	
 	if (isPayloadCmd) {
-		sendto(s, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
-		sendto(s, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
-		sendto(s, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
-		sendto(s, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
+		sendto(sendsockfd, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
+		sendto(sendsockfd, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
+		sendto(sendsockfd, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
+		sendto(sendsockfd, &cmd, sizeof(struct COMMAND), 0, (struct sockaddr*)&UAVAddr, sizeof(UAVAddr));
 		
 	}
 	
@@ -397,7 +379,6 @@ static UAV *sharedInstance = nil;
 		[activityIndicator removeFromSuperview];
 	}
 }
-
 
 - (NSObject*)convertDataToObject:(const struct UAVSTATE*)current{
 	UAVSTRUCT *uav = [[[UAVSTRUCT alloc] init] autorelease];
@@ -440,13 +421,14 @@ static UAV *sharedInstance = nil;
 	NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
 	[formatter setDateFormat:@"A"];
 	
-	NSNumberFormatter *f = [[[NSNumberFormatter alloc] init] autorelease];
-	[f setNumberStyle:NSNumberFormatterDecimalStyle];
-	NSNumber *myNumber = [f numberFromString:[formatter stringFromDate: [NSDate date]]];
-	
-	NSNumber *originalNumber = [f numberFromString:[formatter stringFromDate: firstPacketDate]];
-	
-	uav.ms = ([myNumber intValue] - [originalNumber intValue])/1000;
+    ///TODO
+//	NSNumberFormatter *f = [[[NSNumberFormatter alloc] init] autorelease];
+//	[f setNumberStyle:NSNumberFormatterDecimalStyle];
+//	NSNumber *myNumber = [f numberFromString:[formatter stringFromDate: [NSDate date]]];
+//	
+//	NSNumber *originalNumber = [f numberFromString:[formatter stringFromDate: firstPacketDate]];
+//	
+//	uav.ms = ([myNumber intValue] - [originalNumber intValue])/1000;
 	
 	return uav;
 }
@@ -484,7 +466,8 @@ static UAV *sharedInstance = nil;
     return sharedInstance;
 }
 
-+ (id)allocWithZone:(NSZone *)zone {
++ (id)allocWithZone:(NSZone *)zone 
+{
 	@synchronized(self) 
 	{
         if (sharedInstance == nil) {

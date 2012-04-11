@@ -1,16 +1,7 @@
-//
-//  UAV.h
-//  UAV
-//
-//  Created by Eric Dong on 11/2/10.
-//  Copyright 2010 NUS. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 #import "rotateImage.h"
 #import "UAVSTRUCT.h"
-
 #import <sqlite3.h>
 
 #import <stdio.h>
@@ -40,7 +31,6 @@
 #include <net/if_dl.h>
 
 #define MAXSIZE_PARAMETER  256
-
 
 #define kCommandMerlion_HOVER 0
 #define kCommandMerlion_FORWARD 1
@@ -114,108 +104,140 @@
 #define SLAMMAXRESOLUTIONLIMIT 1024
 
 /*indexes of page with reference to their tab controller */
-#define	kINDEXPANELS		0
-#define kINDEXSUMMARY		1
-#define kINDEXMAP			2
-#define kINDEXSLAM			3
-#define kINDEX3D			4
-#define kINDEXIMAGE			5
-#define kINDEXSETTINGS		6
+#define kINDEXSETTINGS		0
+#define	kINDEXPANELS		1
+#define kINDEXSUMMARY		2
+#define kINDEXMAP			3
+#define kINDEXSLAM			4
+#define kINDEX3D			5
+#define kINDEXIMAGE			6
+#define kINDEXMERGED        7
 
 #define kUAVTypeMerlion		0
 #define kUAVTypeCANCAM		1
 
 #define kSQLFileName @"UAV"
 
+///for slam
 struct UAVCOORD{
 	double x;
 	double y;
 	double state;
 };
 
+struct TELEGRAPH {
+	//unsigned char from;
+    //unsigned char to;
+    //unsigned short size;
+    //short code;
+    //double time; //or //short index
+    char content[512];
+    //short checksum
+};
+
+struct UAVSTATE{
+    double x,y,z;	//position
+    double u,v,w;	//velocity
+    double a,b,c;	//attitude
+    double p,q,r;	//rotating
+    
+    double acx, acy, acz; //accelerate along x,y,z
+    double acp, acq, acr;
+    
+    double ug, vg, wg;	//velocity in user ground frame
+    double longitude, latitude, altitude;
+    
+    double as, bs, rfb; //observable variables
+} ;
+
+struct SVODATA {
+    double aileron;   // -1 ~ 1
+    double elevator;  // -1 ~ 1
+    double auxiliary; // -1 ~ 1
+    double rudder;    // -1 ~ 1
+    double throttle;  // always set to 0
+    double sv6;       //additional signal to determine mode of operation (automatic/manual)
+};
+
+struct IMAGEHEADER {
+	short width;
+	short height;
+	short depth;
+	short type;
+	long  size;
+};
+
+///content[0]            ---- byte from      // ID of source, eg. Ground station, other UAV
+///content[1]            ---- byte to        // ID of destination UAV
+///content[2~3]          ---- short nsize    // size of the whole telegraph
+///content[4~5]          ---- short code     // code for data type
+///content[6~13]         ---- double time    // time when this pkg sent
+///content[14~229]       ---- data payload   // the exact data when transferred, such as UAVSTATE (216), SVODATA
+///content[230~231]      ---- unsigned short // checksum 
+
 @interface UAV : NSObject {
-	
-	struct UAVSTATE{
-		double x,y,z;	//position
-		double u,v,w;	//velocity
-		double a,b,c;	//altitude
-		double p,q,r;	//rotating
-		
-		double acx, acy, acz; //acelerate along x,y,z
-		double acp, acq, acr;
-		
-		double ug, vg, wg;	//velocity in user ground frame
-		double longitude, latitude, altitude;
-		
-		double as, bs, rfb; //observable variables
-		
-		int_fast64_t imagePackets;
-		
-	} *latestData;
+	///declared within curly braces and outside curly braces
+    ///so that it can be accessed internally and externally 
+    struct TELEGRAPH *latestTelegraph;
+	struct UAVSTATE *latestData;
+    struct SVODATA *latestSVOData;
+    
 	NSLock *sqlLock;
-	NSLock *imageLock;
 	NSLock *fullDataLock;
+	NSLock *fullImageLock;
+	NSMutableArray *fullData;
+    NSMutableArray *fullImage;
+    UIImage *liveImage;
 	sqlite3 *db;
 	NSData *image;
 	NSMutableArray *newest600Data;
-	
-	NSMutableArray *fullData;
-	
 	NSDate *firstPacketDate;
-	
 	NSString *uavIP;
-	
 	NSArray *consoleCommandShortcuts;
-	
 	UIActivityIndicatorView *activityIndicator;
-	
 	BOOL graphIsZoomed;
-	
-		struct sockaddr_in UAVAddr;
-	int s;
-	
+    struct sockaddr_in UAVAddr;
+    int sendsockfd;
 	BOOL packetImproper;
-	
 	BOOL uavFound;
-	
 	BOOL autoMode;
-
 	NSString *SQLFileName;
-	
 	int currentUAVType;
-
-
 }
+
 @property (nonatomic) sqlite3* db;
 @property (nonatomic, retain) NSArray *consoleCommandShortcuts;
 @property (nonatomic, retain) NSLock *sqlLock;
-@property (nonatomic, retain) NSLock *imageLock;
+@property (nonatomic, retain) NSLock *fullImageLock;
+@property (nonatomic, retain) NSLock *fullDataLock;
+@property (nonatomic, retain) NSMutableArray *fullData;
+@property (nonatomic, retain) NSMutableArray *fullImage;
+@property (nonatomic, retain) UIImage *liveImage;
 @property (nonatomic, assign) BOOL graphIsZoomed;
 @property (nonatomic, retain) NSData *image;
 @property (nonatomic, retain) NSMutableArray *newest600Data;
+@property (nonatomic) struct TELEGRAPH *latestTelegraph;
 @property (nonatomic) struct UAVSTATE *latestData;
-@property (nonatomic, retain) NSMutableArray *fullData;
 @property (nonatomic, retain) NSDate *firstPacketDate;
 @property (nonatomic, retain) NSString *uavIP;
 @property (nonatomic, retain) UIActivityIndicatorView *activityIndicator;
-@property (nonatomic, retain) NSLock *fullDataLock;
 @property (nonatomic, assign) BOOL packetImproper;
 @property (nonatomic, assign) BOOL uavFound;
-
 @property (nonatomic, assign) BOOL autoMode;
 @property (nonatomic, retain) NSString *SQLFileName;
-
 @property (nonatomic, assign) int currentUAVType;
 
 -(void) createSQL;
 + (UAV*)sharedInstance;
 -(NSMutableArray*) getLatestRowData;
+-(NSMutableArray*) getLatestImageData;
 - (NSObject*)convertDataToObject:(const struct UAVSTATE*)current;
 -(BOOL) parseAndSendCommand:(NSString *)string;
 - (void)removeSpinner;
 - (NSMutableArray*)graphData;
 
 //+(UAV*) initialize;
+
 
 struct COMMAND { 
 	short code;

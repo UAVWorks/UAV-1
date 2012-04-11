@@ -1,10 +1,3 @@
-//
-//  MapViewController.h
-//  UAV
-//
-//  Created by Eric Dong on 8/18/10.
-//  Copyright 2010 NUS. All rights reserved.
-//
 
 #import <MapKit/MapKit.h>
 #import <UIKit/UIKit.h>

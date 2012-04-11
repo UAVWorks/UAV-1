@@ -1,11 +1,3 @@
-//
-//  IPAddress.h
-//  UAV
-//
-//  Created by Lee Sing Jie on 5/8/11.
-//  Copyright 2011 NUS. All rights reserved.
-//
-
 #define MAXADDRS	32
 
 extern char *if_names[MAXADDRS];

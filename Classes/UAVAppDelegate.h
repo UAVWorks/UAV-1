@@ -1,10 +1,4 @@
-//
-//  UAVAppDelegate.h
-//  UAV
-//
-//  Created by Eric Dong on 8/15/10.
-//  Copyright NUS 2010. All rights reserved.
-//
+///put all shared stuff here. app delegate is included in every header.
 
 #import <UIKit/UIKit.h>
 #import <sqlite3.h>

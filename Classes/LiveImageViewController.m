@@ -225,9 +225,9 @@
 	if(self.tabBarController.selectedIndex == i){
 		UAV *uav = [UAV sharedInstance];
 		[[imageView image] release];
-		[uav.imageLock lock];
+		[uav.fullImageLock lock];
 		[imageView setImage:[[UIImage alloc] initWithData:uav.image]];
-		[uav.imageLock unlock];
+		[uav.fullImageLock unlock];
 		
 		if (uav.autoMode){
 			rollAndPitch.hidden = YES;

@@ -1,13 +1,4 @@
-//
-//  UAVAppDelegate.m
-//  UAV
-//
-//  Created by Eric Dong on 8/15/10.
-//  Copyright NUS 2010. All rights reserved.
-//
-
 #import "UAVAppDelegate.h"
-
 
 @implementation UAVAppDelegate
 
@@ -30,12 +21,12 @@
 	[[UAV sharedInstance] createSQL];
 	tabBarController.delegate = self;
 	
-	for (int i=0; i<[tabBarController.viewControllers count]; i++) {
-		if([[tabBarController.viewControllers objectAtIndex:i] isKindOfClass:[SettingsViewController class]]){
-			tabBarController.selectedIndex = i;
-			break;
-		}
-	}
+///	for (int i=0; i<[tabBarController.viewControllers count]; i++) {
+///		if([[tabBarController.viewControllers objectAtIndex:i] isKindOfClass:[SettingsViewController class]]){
+///			tabBarController.selectedIndex = 0;
+///			break;
+///		}
+///	}
 	
 //	NSAssert([[tabBarController viewControllers] count] == kINDEXSETTINGS+1, @"Wrong kIndexSettings");
     [window addSubview:tabBarController.view];

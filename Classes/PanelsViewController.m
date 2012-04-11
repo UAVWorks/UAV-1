@@ -11,8 +11,6 @@
 
 @implementation PanelsViewController
 
-
-
 @synthesize skyGroundBackground;
 @synthesize compassCircle;
 @synthesize arrowHeight;
@@ -91,9 +89,6 @@
 	
 	
 	
-	
-	
-	
 	arrowSpeed.layer.anchorPoint = CGPointMake(0.5, (arrowSpeed.bounds.size.height-16.0)/arrowSpeed.bounds.size.height);
 	arrowHeight.layer.anchorPoint = CGPointMake(0.5, (arrowHeight.bounds.size.height-16.0)/arrowHeight.bounds.size.height);
 
@@ -113,8 +108,6 @@
 	heightValue.text = @"0.0";
 
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ping) name:@"ping" object:nil];
-
-
 }
 - (void)ping{
 	UAV *uav = [UAV sharedInstance];
@@ -148,9 +141,6 @@
 		heightValue.text = [NSString stringWithFormat:@"%.2f", 0.00];
 		
 		arrowSpeed.transform = CGAffineTransformRotate(CGAffineTransformRotate(centerPointOfArrow, M_PI),0);
-		
-		
-	
 	}
 	
 	

@@ -201,7 +201,7 @@
 			CGContextStrokePath(c);
 		}
 		
-		if (i >= 0 && _drawAxisY) {
+		if (_drawAxisY) {
 			
 			NSNumber *valueToFormat = [NSNumber numberWithFloat:(value + minY)];
 			
@@ -283,19 +283,20 @@
 			CGContextStrokePath(c);
 		}
 		
-		if (_drawAxisX) {
-			
-			id valueToFormat = [NSNumber numberWithDouble:[(UAVSTRUCT*)[xValues objectAtIndex:index] ms]];
-			NSString *valueString;
-			if (_xValuesFormatter) {
-				valueString = [_xValuesFormatter stringForObjectValue:valueToFormat];
-			} else {
-				valueString = [NSString stringWithFormat:@"%@", valueToFormat];
-			}
-			[self.xValuesColor set];
-			[valueString drawInRect:CGRectMake(x, self.frame.size.height - 20.0f, 120.0f, 20.0f) withFont:font
-					  lineBreakMode:UILineBreakModeTailTruncation alignment:UITextAlignmentCenter];
-		}
+        //TODO
+//		if (_drawAxisX) {
+//			
+//			id valueToFormat = [NSNumber numberWithDouble:[(UAVSTRUCT*)[xValues objectAtIndex:index] ms]];
+//			NSString *valueString;
+//			if (_xValuesFormatter) {
+//				valueString = [_xValuesFormatter stringForObjectValue:valueToFormat];
+//			} else {
+//				valueString = [NSString stringWithFormat:@"%@", valueToFormat];
+//			}
+//			[self.xValuesColor set];
+//			[valueString drawInRect:CGRectMake(x, self.frame.size.height - 20.0f, 120.0f, 20.0f) withFont:font
+//					  lineBreakMode:UILineBreakModeTailTruncation alignment:UITextAlignmentCenter];
+//		}
 	}
 	
 	stepX = (self.frame.size.width - (offsetX * 2)) / (xValuesCount - 1);
