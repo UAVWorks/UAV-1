@@ -105,54 +105,55 @@
 #pragma mark IBAction
 //connect to UAV
 - (IBAction) connectSwitchToggled: (id)sender{	
-//    if (![imageIPTextField.text isEqualToString:@""] && ![imagePortTextField.text isEqualToString:@""])
-//    {
-//        /// if the switch is on, create a socket and bind it
-//        if (connectSwitch.on)         
-//        {
-//            int rv;
-//            struct sockaddr_in remoteAddr;
-//            imagesockfd = socket(AF_INET, SOCK_DGRAM, 0);
-//            ///returns -1 if socket creation fails
-//            if (imagesockfd == -1)
-//            {
-//                gcsIP.text = @"UAV IP/Port: (cannot create socket)";
-//                [connectSwitch setOn:false];
-//                return;
-//            }
-//            ///zero all & bind socket
-//            bzero(&remoteAddr, sizeof(remoteAddr));
-//            remoteAddr.sin_family = AF_INET;
-//            inet_pton(AF_INET, [imageIPTextField.text UTF8String] , &(remoteAddr.sin_addr));
-//            //remoteAddr.sin_addr.s_addr = htonl(INADDR_ANY);
-//            remoteAddr.sin_port = htons([imagePortTextField.text intValue]);
-//            rv = bind(datasockfd, (struct sockaddr *)&remoteAddr, sizeof(remoteAddr));
-//            if (rv == -1)
-//            {
-//                close(datasockfd);
-//                gcsIP.text = @"UAV IP/Port: (bind fail)";
-//                [connectSwitch setOn:false];
-//                return;
-//            } else {
-//                gcsIP.text = [NSString stringWithFormat:@"UAV IP/Port: %@/%@", imageIPTextField.text, imagePortTextField.text];
-//            }
-//            
-//            // create and initialize a mutex lock that control access to shared data between threads		
-//            // create a thread to monitor incoming data and a thread to update the display
-//            [NSThread detachNewThreadSelector:@selector(checkForIncomingImage) toTarget:self withObject:nil];	
-//            
-//            ///disable the port textfield
-//            imageIPTextField.enabled = imagePortTextField.enabled =  NO;
-//            NSLog(@"create sockfd : %d",imagesockfd);
-//        }	
-//        else // close the socket to terminate the connection
-//        {
-//            close(imagesockfd);
-//            gcsIP.text = @"UAV IP/Port: (closed)";
-//            imageIPTextField.enabled = imagePortTextField.enabled =  YES;
-//            NSLog(@"close sockfd : %d",imagesockfd);
-//        }
-//    }
+    //commented code is to connect to a 
+    //    if (![imageIPTextField.text isEqualToString:@""] && ![imagePortTextField.text isEqualToString:@""])
+    //    {
+    //        /// if the switch is on, create a socket and bind it
+    //        if (connectSwitch.on)         
+    //        {
+    //            int rv;
+    //            struct sockaddr_in remoteAddr;
+    //            imagesockfd = socket(AF_INET, SOCK_DGRAM, 0); //udp = SOCK_DGRAM
+    //            ///returns -1 if socket creation fails
+    //            if (imagesockfd == -1)
+    //            {
+    //                gcsIP.text = @"UAV IP/Port: (cannot create socket)";
+    //                [connectSwitch setOn:false];
+    //                return;
+    //            }
+    //            ///zero all & bind socket
+    //            bzero(&remoteAddr, sizeof(remoteAddr));
+    //            remoteAddr.sin_family = AF_INET;
+    //            inet_pton(AF_INET, [imageIPTextField.text UTF8String] , &(remoteAddr.sin_addr));
+    //            //remoteAddr.sin_addr.s_addr = htonl(INADDR_ANY);
+    //            remoteAddr.sin_port = htons([imagePortTextField.text intValue]);
+    //            rv = bind(datasockfd, (struct sockaddr *)&remoteAddr, sizeof(remoteAddr));
+    //            if (rv == -1)
+    //            {
+    //                close(datasockfd);
+    //                gcsIP.text = @"UAV IP/Port: (bind fail)";
+    //                [connectSwitch setOn:false];
+    //                return;
+    //            } else {
+    //                gcsIP.text = [NSString stringWithFormat:@"UAV IP/Port: %@/%@", imageIPTextField.text, imagePortTextField.text];
+    //            }
+    //            
+    //            // create and initialize a mutex lock that control access to shared data between threads		
+    //            // create a thread to monitor incoming data and a thread to update the display
+    //            [NSThread detachNewThreadSelector:@selector(checkForIncomingImage) toTarget:self withObject:nil];	
+    //            
+    //            ///disable the port textfield
+    //            imageIPTextField.enabled = imagePortTextField.enabled =  NO;
+    //            NSLog(@"create sockfd : %d",imagesockfd);
+    //        }	
+    //        else // close the socket to terminate the connection
+    //        {
+    //            close(imagesockfd);
+    //            gcsIP.text = @"UAV IP/Port: (closed)";
+    //            imageIPTextField.enabled = imagePortTextField.enabled =  YES;
+    //            NSLog(@"close sockfd : %d",imagesockfd);
+    //        }
+    //    }
     if (![imagePortTextField.text isEqualToString:@""])
     {
         /// if the switch is on, create a socket and bind it
@@ -161,7 +162,7 @@
             int rv;
             int sockfd;
             struct sockaddr_in remoteAddr;
-            sockfd = socket(AF_INET, SOCK_STREAM, 0);
+            sockfd = socket(AF_INET, SOCK_STREAM, 0);  //tcp = SOCK_STREAM
             ///returns -1 if socket creation fails
             if (sockfd == -1)
             {
@@ -185,7 +186,7 @@
             imageIP.text = @"UAV IP/Port: (listening)";
             listen(sockfd,5);
             
-            int len = sizeof(remoteAddr);
+            socklen_t len = sizeof(remoteAddr);
             imagesockfd = accept(sockfd, (struct sockaddr *) &remoteAddr, &len);
             if (imagesockfd == -1)            
             {
@@ -206,71 +207,75 @@
         }	
         else // close the socket to terminate the connection
         {
-            close(imagesockfd);
-            imageIP.text = @"UAV IP/Port: (closed)";
-            imageIPTextField.enabled = imagePortTextField.enabled =  YES;
-            NSLog(@"close sockfd : %d",imagesockfd);
+            [self closeImageSock];
         }
     }
+}
+
+- (void) closeImageSock
+{
+    close(imagesockfd);
+    imageIP.text = @"UAV IP/Port: (closed)";
+    imageIPTextField.enabled = imagePortTextField.enabled =  YES;
+    NSLog(@"close imagesockfd : %d",imagesockfd);
 }
 
 - (void) checkForIncomingImage
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     
-    struct sockaddr_in remoteAddr;
-    socklen_t len;	
-    
     struct IMAGEHEADER *currentImageHeader = malloc((sizeof(struct IMAGEHEADER)));
-        
-    int rv = 0;
-    char buffer[1400];
-    bool imageNow = false;
-    short currentWidth;
-    short currentHeight;
-    //check if sock exist or receiving is incorrect
-    while(imagesockfd != -1 && rv != -1)
+    
+    int rv = 0; //# of received bytes
+    int rcvBufSize = 0; //socket receive buffer size
+    socklen_t rcvBufSizeLen = sizeof(rcvBufSize);
+    if (getsockopt(imagesockfd, SOL_SOCKET, SO_RCVBUF, &rcvBufSize, &rcvBufSizeLen) == -1) //gets the receive buffer size of the socket
+    {
+        NSLog(@"Failed to get and assign buffer size");
+        [self closeImageSock];
+    }
+    char buffer[rcvBufSize]; //sets the receive buffer
+    char *imageBuf; //imageBuffer
+    int imageIndex=0;
+    bool imageNow = false; //to indicate if socket receiving header or image
+    short headerCode;
+    
+    while(imagesockfd != -1 && rv != -1) //check if sock exists or receiving is incorrect
     {
         NSAutoreleasePool *pool2 = [[NSAutoreleasePool alloc] init];
-        if (imageNow == false)
-            memset(currentImageHeader, 0, sizeof(struct IMAGEHEADER));
-//        rv = recvfrom(imagesockfd, buffer, sizeof(buffer), 0, (struct sockaddr *)&remoteAddr, &len);
-        rv = recv(imagesockfd, buffer, sizeof(buffer), 0);
-        if (rv != -1)
+        
+        memset(buffer, 0, sizeof(buffer));//clear buffer
+        rv = recv(imagesockfd, buffer, sizeof(buffer), 0); //tcp uses recv instead of recvfrom, this function returns the number of bytes received
+        
+        if (rv == -1)
         {
-            //bufferOutput.text = [NSString stringWithFormat:@"rv:%d", rv];
-            short currentCode;
-            memset(&currentCode, 0, sizeof(short));
-            memcpy(&currentCode, buffer+4, sizeof(short));
-            if (currentCode == COMMAND_IMAGE)
+            NSLog(@"Receiving failed");
+            [self closeImageSock];
+            break;
+        }
+        
+        memset(&headerCode, 0, sizeof(short));
+        memcpy(&headerCode, buffer+4, sizeof(short)); //checks the index at 4 for Code
+        if (headerCode == COMMAND_IMAGE)
+        {
+            NSLog(@"headerv:%d", rv);
+            memset(currentImageHeader, 0, sizeof(struct IMAGEHEADER));
+            memcpy(currentImageHeader, buffer+8, sizeof(struct IMAGEHEADER));
+            free(imageBuf);
+            imageIndex = 0;
+            imageBuf = (char*)malloc(currentImageHeader->size);
+            imageNow = true; //next loop receives image             
+        }
+        else  //receiving image now
+        {
+            NSLog(@"imagerv:%d", rv);
+            memcpy(imageBuf+imageIndex, buffer, rv); //initially at 0, adds on to imageBuf
+            imageIndex += rv;
+            
+            if (imageIndex == currentImageHeader->size)
             {
-                NSLog(@"headerv:%d", rv);
-                imageNow = true;
-                //content values
-                //            char ufrom;
-                //            char uto;
-                //            short usize;
-                short currentCode;
-                //            short index;
-                //            memcpy(&ufrom, buffer, sizeof(char));
-                //            memcpy(&uto, buffer+1, sizeof(char));
-                //            memcpy(&usize, buffer+2, sizeof(short));
-                memset(&currentCode, 0, sizeof(short));
-                memcpy(&currentCode, buffer+4, sizeof(short));
-                memset(&currentWidth, 0, sizeof(short));
-                memcpy(&currentWidth, buffer+8, sizeof(short));
-                memset(&currentHeight, 0, sizeof(short));
-                memcpy(&currentHeight, buffer+10, sizeof(short));
-                //            memcpy(&index, buffer+6, sizeof(short));                
-            }
-            else  //receiving image now
-            {
-                
-                NSLog(@"imagerv:%d", rv);
-                imageNow = false;
                 ImageProcessingImpl *ImageProc;
-                
-                UIImage* processedImage = [ImageProc decompressImage:buffer withSize:sizeof(buffer) withHeight:currentHeight withWidth:currentWidth];
+                UIImage* processedImage = [ImageProc decompressImage:imageBuf withSize:sizeof(buffer) withHeight:currentImageHeader->height withWidth:currentImageHeader->width];
                 
                 [NSThread detachNewThreadSelector:@selector(updateFullImage:) toTarget:self withObject:processedImage];                
                 [self performSelectorInBackground:@selector(updateFullImage:) withObject:processedImage];
@@ -374,52 +379,52 @@
             }
             
             //content values
-//            char ufrom;
-//            char uto;
-//            short usize;
+            //            char ufrom;
+            //            char uto;
+            //            short usize;
             short currentCode;
-//            double utime;
-//            memcpy(&ufrom, buffer, sizeof(char));
-//            memcpy(&uto, buffer+1, sizeof(char));
-//            memcpy(&usize, buffer+2, sizeof(short));
+            //            double utime;
+            //            memcpy(&ufrom, buffer, sizeof(char));
+            //            memcpy(&uto, buffer+1, sizeof(char));
+            //            memcpy(&usize, buffer+2, sizeof(short));
             memset(&currentCode, 0, sizeof(short));
             memcpy(&currentCode, buffer+4, sizeof(short));
-//            memcpy(&utime, buffer+6, sizeof(double));
+            //            memcpy(&utime, buffer+6, sizeof(double));
             if (currentCode == DATA_STATE)
             {
                 memcpy(currentUAVState, buffer+14	, sizeof(struct UAVSTATE));
-//                NSString *createSQL;
-//                createSQL = [[NSString alloc]initWithFormat:@"INSERT INTO FLIGHTDATA ("
-//                             "x,y,z,"
-//                             "u,v,w,"
-//                             "a,b,c,"
-//                             "p,q,r,"
-//                             "acx, acy, acz,"
-//                             "acp, acq, acr,"
-//                             "ug, vg, wg,"
-//                             "longitude, latitude, altitude,"
-//                             "'as', bs, rfb"
-//                             ")" 
-//                             "Values (%f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f);", 
-//                             currentUAVState->x, currentUAVState->y, currentUAVState->z, 
-//                             currentUAVState->u, currentUAVState->v, currentUAVState->w,  
-//                             currentUAVState->a, currentUAVState->b, currentUAVState->c, 
-//                             currentUAVState->p, currentUAVState->q, currentUAVState->r,  
-//                             currentUAVState->acx, currentUAVState->acy, currentUAVState->acz, 
-//                             currentUAVState->acp, currentUAVState->acq, currentUAVState->acr,  
-//                             currentUAVState->ug, currentUAVState->vg, currentUAVState->wg, 
-//                             currentUAVState->longitude, currentUAVState->latitude, currentUAVState->altitude, 
-//                             currentUAVState->as, currentUAVState->bs, currentUAVState->rfb];
-//
-//                NSLog(@"test: longitude: %f", currentUAVState->longitude);
-//                [NSThread detachNewThreadSelector:@selector(insertSQL:) toTarget:self withObject:createSQL];	
-//                
-//                [sqlArray addObject:createSQL];
+                //                NSString *createSQL;
+                //                createSQL = [[NSString alloc]initWithFormat:@"INSERT INTO FLIGHTDATA ("
+                //                             "x,y,z,"
+                //                             "u,v,w,"
+                //                             "a,b,c,"
+                //                             "p,q,r,"
+                //                             "acx, acy, acz,"
+                //                             "acp, acq, acr,"
+                //                             "ug, vg, wg,"
+                //                             "longitude, latitude, altitude,"
+                //                             "'as', bs, rfb"
+                //                             ")" 
+                //                             "Values (%f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f);", 
+                //                             currentUAVState->x, currentUAVState->y, currentUAVState->z, 
+                //                             currentUAVState->u, currentUAVState->v, currentUAVState->w,  
+                //                             currentUAVState->a, currentUAVState->b, currentUAVState->c, 
+                //                             currentUAVState->p, currentUAVState->q, currentUAVState->r,  
+                //                             currentUAVState->acx, currentUAVState->acy, currentUAVState->acz, 
+                //                             currentUAVState->acp, currentUAVState->acq, currentUAVState->acr,  
+                //                             currentUAVState->ug, currentUAVState->vg, currentUAVState->wg, 
+                //                             currentUAVState->longitude, currentUAVState->latitude, currentUAVState->altitude, 
+                //                             currentUAVState->as, currentUAVState->bs, currentUAVState->rfb];
+                //
+                //                NSLog(@"test: longitude: %f", currentUAVState->longitude);
+                //                [NSThread detachNewThreadSelector:@selector(insertSQL:) toTarget:self withObject:createSQL];	
+                //                
+                //                [sqlArray addObject:createSQL];
                 [NSThread detachNewThreadSelector:@selector(updateFullData:) toTarget:self withObject:[[UAV sharedInstance] convertDataToObject:currentUAVState]];                
                 [self performSelectorInBackground:@selector(updateFullData:) withObject:[[UAV sharedInstance] convertDataToObject:currentUAVState]];
                 
                 [self performSelectorOnMainThread:@selector(postNotificationToUI) withObject:nil waitUntilDone:NO];
-//                [createSQL release];
+                //                [createSQL release];
             }
         }
         [pool2 drain];
@@ -448,7 +453,8 @@
     if ([uav.fullImage count] == 3){
         [uav.fullImage removeObject:0];
     }
-	[uav.fullImage addObject:object] ;
+    if (object != nil) //object referred to nil, (void*) referred to NULL
+        [uav.fullImage addObject:object] ;
 	[uav.fullImageLock unlock];
 	
 	[pool drain];

@@ -1,4 +1,4 @@
-///git add -u .
+///git add -u .     to add committed files
 
 ///put all shared stuff here. app delegate is included in every header.
 
