@@ -1,3 +1,5 @@
+///git add -u .
+
 ///put all shared stuff here. app delegate is included in every header.
 
 #import <UIKit/UIKit.h>
